@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/siri/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-03-27T15:07:28-04:00</updated>
+  <id>http://localhost:4000/tag/siri/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>The professional publishing platform</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Siri Shortcuts</title>
+      <link href="http://localhost:4000/siri-shortcuts" rel="alternate" type="text/html" title="Siri Shortcuts" />
+      <published>2018-06-08T17:10:24-04:00</published>
+      <updated>2018-06-08T17:10:24-04:00</updated>
+      <id>http://localhost:4000/siri-shortcuts</id>
+      <content type="html" xml:base="http://localhost:4000/siri-shortcuts">&lt;p&gt;At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.&lt;/p&gt;
+
+&lt;p&gt;The Shortcuts app itself would be pretty handy in general, you’ll be able to build Automator-style “Shortcuts” that can trigger actions throughout the OS. Apple showed that third-parties will also be able to integrate with this, so the benefits begin to snowball into something very interesting. Apple didn’t stop there, however. Combine all of this with the “Siri” side of things:  Shortcuts will be able to trigger using custom voice phrases that the user can assign for Siri. Telling Siri “laundry time” could kick off a custom Shortcut that the user created, for example. The icing on the cake with all of this is that, beyond just voice, Siri will recognize patterns in usage for these Shortcuts and offer recommendations for them throughout the OS.&lt;/p&gt;
+
+&lt;p&gt;Some examples of Siri recommendations include Spotlight/Siri search, where the user can pull down on the home screen and it will present some suggested shortcuts based on relevant context (time, location, etc). Running late for a meeting? It may offer to text your boss. Going to the gym? It may recognize a gym Shortcut you setup to start a workout and listen to a podcast.&lt;/p&gt;
+
+&lt;p&gt;These recommendations can also be helped along by third-party apps. These apps can “donate” Siri relevant data for it to analyze and find patterns with. Apple offers various ways to “nudge” Siri in the right direction if you know you want the user to see this information within certain times, events, etc, but overall it sounds like it should be pretty capable of learning and offering useful suggestions.&lt;/p&gt;
+
+&lt;p&gt;Some other ways these Shortcuts will come up include the lock screen and the Siri watch face for Apple watch. This is particularly exciting, as it will be possible for many tasks to be carried off in the background, the user simply needs to invoke it from the watch face or trigger phrase.&lt;/p&gt;
+
+&lt;p&gt;While some of these details are still unclear, these Siri Shortcuts offer a huge leap in capabilities for Siri. What used to be a fairly limited set of SiriKit domains will not be opened pretty wide for third-parties to do as they please. It hasn’t been made clear if apps will be able to request additional information, such as asking the user for input without opening the app, but if this isn’t available at launch, surely it won’t be far behind.&lt;/p&gt;
+
+&lt;p&gt;Since these trigger phrases will be programmed by the user, it sounds like they won’t be fine-grained enough to accept variable inputs. While it would be awesome to, for example, be able to say “order 2 pizzas” and have it parse each word to understand quantity and product, the reality sounds like it will be closer to “order pizza” and the app will guide you through the details.&lt;/p&gt;
+
+&lt;p&gt;One curiosity I’m anxious to see is how all of this fits into the Shorcuts app. Workflow the app is capable of requesting user input for variables, but what if this went a step further and allowed Siri to not only trigger by the phrase, in this case “order pizza”, but could also ask follow-up questions like “what toppings?”, “what size?” and “how many?”. These will be more difficult of course, and likely won’t be available immediately, but it would really complete the autonomous nature that this concept is creating.&lt;/p&gt;
+
+&lt;p&gt;Earlier this year, Google showed off an AI feature that attempted to mimic a human being calling over the phone for use as their assistant. It was intended to set appointments and things of that nature, but ultimately came off a little too uncanny and creepy for a lot of people. While the idea is neat, it takes much of the human/AI grey area too far. What Apple could accomplish with these new functions is an alternative option to Google’s AI: A way for the user to quickly and effortlessly accomplish the same tasks, but without the creepy phone call to somewhere.&lt;/p&gt;
+
+&lt;p&gt;We’ve already seen Apple’s ability to integrate with ride sharing and restaurant booking via Siri. No phone calls are needed, but the user can quickly request what is needed and get a result. Shortcuts has the potential to take this to the next level and allow third-parties to develop their own options for booking appointments, ordering food, etc. While this will depend on the companies to build support, it would allow a clear separation of that uncanny valley and allow the same work to be done. This also leaves far less room for error, as a properly developed app would be able to know what problems they may run into, rather than an AI that hopefully is able to respond when confronted with an unexpected human question.&lt;/p&gt;
+
+&lt;p&gt;Overall, Siri Shortcuts are still in early days. We haven’t even seen the full Shortcuts app yet, so it’s hard to know just where the separation from Workflow to Shortcuts exists. The fact that we have any integration with iOS is a huge leap forward, let alone the fact that third-party apps will be able to tie into not only the Shortcuts app, but Siri voice triggers and the various suggestions throughout the ecosystem. These will all continue to evolve into something much more complex that everyone can benefit from.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="wwdc" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">WWDC 2018</title>
+      <link href="http://localhost:4000/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
+      <published>2018-06-05T13:49:00-04:00</published>
+      <updated>2018-06-05T13:49:00-04:00</updated>
+      <id>http://localhost:4000/wwdc-2018</id>
+      <content type="html" xml:base="http://localhost:4000/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
+
+&lt;p&gt;There was a bit too much to cover here, so I’ll try to tackle a few favorites (though I’m sure I’ll still forget some of those!). For me, the biggest surprise and my favorite announcement was the Siri Shorcuts. This is a combination of a few things, but a lot of it ties into the Shortcuts app that will be coming out for iOS 12. This appears to be the result of Apple’s acquisition of the Workflow app and team, as it strongly resembles it.&lt;/p&gt;
+
+&lt;p&gt;Effectively, Shortcuts allows the user to create their own “scripts” to run various actions, and by being integrated into iOS now, it looks like they’ll provide even more fine-grained ways to work with this than before. By itself this would be a pretty neat feature, but on top of this, users will be able to assign voice triggers for both the shortcuts they create as well as first and third-party apps that have their own functions. This opens a lot of possibilities up for using Siri, as you can create your own memorable trigger phrases to take whatever actions you want.&lt;/p&gt;
+
+&lt;p&gt;Going yet another step further, voice isn’t the only way a user is required to trigger these shortcuts. The machine learning side of Siri will also be able to recognize patterns in usage and suggest shortcuts to the user in a variety of ways, ranging from Spotlight, the lock screen, even the Siri watch face on the Apple Watch. If a user does a particular action every day at the same time, or location, etc, Siri can recommend this shortcut to the user, allowing them to bypass what would otherwise be a lot of manual steps. As this evolves, this has the potential to be a complete game changer in this space.&lt;/p&gt;
+
+&lt;p&gt;Along with shortcuts showing up on the watch, third parties will be able to integrate with the Siri watch face now as well. This was something everyone has wanted since the watch face was announced last year, so it seems obvious, but none the less this is a great addition.&lt;/p&gt;
+
+&lt;p&gt;The watch is also getting both a native podcasts app as well as support for third party background audio, meaning third party podcasts apps as well. I use Overcast for podcasts, but the developer of it, Marco Arment, has long been unsatisfied with the options available to make a proper watch app. it sounds like Apple has listened, as he is already planning some big updates for Overcast which is great.&lt;/p&gt;
+
+&lt;p&gt;Also on the watch is a feature that was supposed to show up in the first generation of the watch and quietly disappeared by launch, walkie-talkie. I’m not sure what the reason for the delay was, but either way, it’s here now and looks like it should be a pretty handy feature. While I can’t see myself using it all of the time, it could be handy when you just need a quick message, be it to someone across the house, or for quick confirmation if you’re out somewhere. We’ll see how my usage of it evolves once it comes out, but I’m excited to see what it’s like either way.&lt;/p&gt;
+
+&lt;p&gt;Something really interesting coming to the watch is the ability to invoke Siri without using “hey Siri”. They claim it will respond simply by you raising your wrist and speaking the command. They seem pretty confident that it won’t trigger accidentally, but we’ll see how that plays out. This has a lot of potential to be useful, but I’m still a bit skeptical just yet.&lt;/p&gt;
+
+&lt;p&gt;A nice update coming to both the watch and iOS are notifications. People have long complained about notifications lacking a way to group them, so finally that request has been heard. Not only can notifications be grouped, but iOS will also allow you to easily tweak notification settings from from each one. You’ll be able to have them silently go straight to notification center instead of pinging you, which is really useful. Siri will also be able to suggest changes to the notifications, presumably based on how much you do or don’t interact with them. Do Not Disturb mode is also being enhanced so you don’t need to disable notifications entirely, but rather can just turn on DND for an hour, or have it turn off when you leave a location.&lt;/p&gt;
+
+&lt;p&gt;Another interesting feature for the watch is Student ID cards. It’s not clear if this will branch out to more sooner than later, but it seems users will not need a full blown ID badge around college campuses. Rather, their watch will be able to work as their ID and the NFC capabilities of the watch will be able to work with readers to authenticate students, pay for snacks, laundry, etc.&lt;/p&gt;
+
+&lt;p&gt;Enough about watchOS though (that could be a post of its own!), iOS is getting some big changes that I love too. Group FaceTime will finally be a thing, supporting up to 32 users! They have a pretty nice UI for it that isn’t as jarring as most that I’ve used seem to be. Users will be able to hop in and out on demand like a chat room, which is pretty useful too.&lt;/p&gt;
+
+&lt;p&gt;Apple also demoed some new ARkit functionality, using LEGOs in a way that brought them to life. I’m a little conflicted on this, as half of the fun for me with LEGOs has always been interacting with them using my imagination, but their presentation does present it more as a way to extend the fun. Either way, they’re making some huge strides in ARkit, especially only being a year old. It’s clear they’re laying down a foundation for something huge further down the road, as in, glasses.&lt;/p&gt;
+
+&lt;p&gt;Outside of that, another one of my favorites include the performance improvements they started off with. When it was announced, I was skeptical that we’d even notice a difference here. After loading the beta up on my iPad Air 2 (now nearly 4 years old and sluggish), it’s not just that it feels like a new device, but the perceived performance enhancements almost seem faster than it was on day one. Not only do I get more life out of this aging device, it’s even better than ever! I’m excited to see how this works across my other devices, as users have reported the same improvements across iPhone and watchOS, which is very promising.&lt;/p&gt;
+
+&lt;p&gt;Overall, while there’s always room for improvement, I think this was a very promising WWDC. It was filled with way more than most of us were expecting, and lays down a foundation for bigger things in the coming years. I’m pretty excited to see how things unfold, but it seems like the betas are incredibly fast and stable already, so that’s a great start. Perhaps we’ll be in for something huge in the fall?&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="wwdc" />
+      
+        <category term="ios" />
+      
+        <category term="watchos" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">E.T. Phone Home(Pod)</title>
+      <link href="http://localhost:4000/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
+      <published>2018-02-12T14:21:00-05:00</published>
+      <updated>2018-02-12T14:21:00-05:00</updated>
+      <id>http://localhost:4000/e-t-phone-home-pod</id>
+      <content type="html" xml:base="http://localhost:4000/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, I decided it was worth at least trying one out during Apple’s return window and see where I land. I picked one up from the local mall and plugged it in over my mantel. At first I was pretty unimpressed, the sound seemed good, but not amazing. I did quickly realize we were mostly playing music from the ’60s, like the Beatles, which may not have been recorded to really show this thing off. Next we queued up some modern pop songs with a mix of highs, mids and lows to really demo the range. This is definitely where the HomePod shines. It’s not like older music is bad on it, but I realized there is only so much you’ll be able to differentiate from older recordings.&lt;/p&gt;
+
+&lt;p&gt;Later that day we tried AirPlaying the Apple TV audio to the HomePod to see how well it works as a sound bar of sorts. It works, with somehow less delay than my other AirPlay speakers even (there is typically a 2-second delay between pressing pause/play and the actual result, but they all stay in sync otherwise). It is more quiet than music on the same device, but it still showed me how much we’ve been lacking from the standard TV speakers. This is something that a proper sound system would probably be equally impressive with, but having none of that, it’s nice to have one device solve multiple problems. There’s a lot of potential for this to be the perfect solution for us when two HomePods can be paired together in stereo.&lt;/p&gt;
+
+&lt;p&gt;Finally I had a chance to sit down with it on the evening of the second day and properly compare it to my existing stereo system that I would say is probably the “best” in the house. It’s a custom system I pieced together, consisting of a standalone amp attached to some decent bookshelf speakers and an AirPort Express providing AirPlay input to the amp. While my tests weren’t super thought out, I tried to place the speakers and HomePod in ways that wouldn’t get in each other’s ways but still provide a good test for their typical usage. They say the HomePod needs to play music for a little while to calibrate itself after it’s been moved, so perhaps that explains things, but at first I was a little disappointed. While HomePod was better, it didn’t seem like by much. It certainly fills a room better, anywhere you walk the sound is pretty consistent, but sitting in front of both, the sound seemed only marginally better. I decided to put on an Apple Music playlist, hoping it would have some songs just for this purpose. It wasn’t until the song “Fitzpleasure” by alt-J came on that the difference became incredibly clear. The range on the song really set things apart and made my old system sound hollow and tinny. I hate to use the comparison, but it really was similar to going from a standard display to retina. Hearing the difference, it’s hard to go back to the other&lt;sup&gt;&lt;a href=&quot;#one&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;One observation I’ve made about this speaker is how it automatically tunes itself for each song. This is something in the past I would have had to do pretty regularly either on my amp directly or via a software equalizer, and is something I really don’t care to interact with. I realize that’s the least audiophile thing to say, but I’m no audiophile 🙂 I think I pretty well sum up the market this device is for, average consumers who just want music to sound good without any extra effort. I don’t want to mess with speaker placement, tucking wires or messing with equalizers. I just want a device I can plug in and have results that work as expected without any tweaking. HomePod definitely does great at that, and not just because it learns your room, but in general because it has a lot of engineering in the DSP to really make a lot happen from a small device.&lt;/p&gt;
+
+&lt;p&gt;When it comes to music, HomePod is a winner. It has reminded me of why I ever invested in a decent sound system to start with, not to mention my collection of vinyls. It wasn’t about sound quality as much as just the experience of sitting and actively listening to music instead of passively while doing something else. HomePod makes me want to sit and enjoy music with friends in a way I haven’t in a long time.&lt;/p&gt;
+
+&lt;p&gt;HomePod is marketed at having “room filling sound”. The concept seems pretty simple, it just needs to make the room have sound from anywhere. This is actually a pretty tough trick typically, since most stereo systems use two speakers pointed forward. You’ll hear music outside of there, but it tends to very quickly lose its quality as you veer from being directly in front. HomePod has a circular array of tweeters, and using their fancy software and processor, they can adjust the sound based on the room dynamics. This means, typically, anywhere I went in the room after it adjusted itself (which happens during the first song you play) the sound was the same. It’s one of those things you kind of have to experience to really feel it, but it transforms the way you listen to music in a lot of ways.&lt;/p&gt;
+
+&lt;p&gt;Beyond all of that, there is of course the Siri functionality. I will definitely say that personally, I’ve been using Siri since my iPhone 4S which I got a few weeks after launch. It has been something I find incredible value in, and the evolution of features over time has only increased that value for me. I know plenty of people like to trash talk it, say it doesn’t work, or that it is “light years behind &amp;lt;Alexa/Google Assistant&amp;gt;”. While this debate is best saved for another time, overall my experience on the iPhone with Siri has been pretty much on par with Google Assistant and in most cases&lt;sup&gt;&lt;a href=&quot;#two&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; far surpasses Alexa. Notice I said on iPhone though.&lt;/p&gt;
+
+&lt;p&gt;HomePod Siri unfortunately comes out of the gate crippled a bit more than its iOS version. While 95% of my queries have been fine, there have been a few times where it simply says “I can’t do that on HomePod” or similar, even for something simple like weight conversions. It tended to work after I adjusted the wording slightly, but that’s still unfortunate. They market this device as being a musicologist, and thusly, Siri is ideal for music requests. This has been overall a great success, but I have had it hiccup on requests like “Who’s the drummer in this?” for bands where the answer is obvious, such as the Beatles. It was a more obscure song, but it should still be able to get that data regardless of what is attached to each song. However, this really was only a problem for that song, overall it’s been able to tell me all sorts of random facts about the music, from who plays what, to who wrote the specific song in bands like the Beatles where it regularly alternates.&lt;/p&gt;
+
+&lt;p&gt;Another quirky aspect of HomePod with regards to Siri is Apple’s approach to tying in things like messages and reminders. HomePod allows you to set reminders or send messages with Siri, but only if you give permission to, because unfortunately they don’t do any type of voice detection to ensure the wrong user isn’t attempting to read/send messages. This also means these services are only tied to one user for now, but I imagine all of this will change with an update in the near future. Ideally they will provide multiple voice detection (Google already can, and Siri can on iOS) that can tie to each user’s profiles.&lt;/p&gt;
+
+&lt;p&gt;An interesting approach they took was forcing these interactions to occur on the user’s phone. Basically, it detects the request and passes it to the phone for processing. This also aids in a kind of security, as these interactions can only occur when the user is on the same wifi. At least this way no one will be reading your messages if you’re not home. I don’t now if they plan to keep this design, but I do kind of like it from an engineering aspect. By separating this out, in theory it only needs to store data about who’s phone to send to, so potentially as they add support for more users, it could simply know how to route to the user’s phone and do the rest. This keeps things secure and private in some ways, but it’s not like there’s much one could extract from HomePod either way. I also could see this being a way they allow users to authorize interactions, using Touch/Face ID when needed, since it all interacts with the phone anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;one&quot;&gt;&lt;/a&gt;
+One of the most impressive parts of the Siri experience on HomePod is how well it can hear you, regardless of how loud music may be. I’ve done multiple tests with volume at 100% and am still able to make requests to Siri at what I would consider a normal speaking volume. You certainly won’t be whispering at 100% volume, but I think you can still talk slightly quieter than if you were talking to someone else in the same room at that volume. At 60% you can easily talk lower than regular speaking volume and Siri will hear you perfectly. I haven’t had any mistakes in what it heard me request so far either, which is a common issue people complain about on iOS. Clearly this thing benefits a ton from having always-on power and an array of mics. The internal processing it does with all of the sound definitely helps it pick up these sounds over the other noise, which is super useful for play/pause commands.
+&lt;a name=&quot;two&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(1)&lt;/strong&gt; As a follow up, I did end up doing some further tuning and concluded that my existing setup is a lot better than I thought initially. The HomePod still does better at the “room filling” aspect, as mine requires sitting in the “sweet spot”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(2)&lt;/strong&gt; Alexa does have tons of “skills”, but I’ve never known anyone who uses these are more than a party trick, and most of them are clunky even for that. There are going to be a few things each assistant does better than the other, with Alexa’s multiple timers being better than Siri’s single timer, but I’ve learned tricks like using alarms and reminders to solve that ages ago.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="homepod" />
+      
+        <category term="siri" />
+      
+        <category term="airplay" />
+      
+        <category term="smart-speaker" />
+      
+
+      
+        <summary type="html">When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

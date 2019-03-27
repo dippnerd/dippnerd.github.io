@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/apple/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-03-27T15:07:28-04:00</updated>
+  <id>http://localhost:4000/tag/apple/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>The professional publishing platform</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Siri Shortcuts</title>
+      <link href="http://localhost:4000/siri-shortcuts" rel="alternate" type="text/html" title="Siri Shortcuts" />
+      <published>2018-06-08T17:10:24-04:00</published>
+      <updated>2018-06-08T17:10:24-04:00</updated>
+      <id>http://localhost:4000/siri-shortcuts</id>
+      <content type="html" xml:base="http://localhost:4000/siri-shortcuts">&lt;p&gt;At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.&lt;/p&gt;
+
+&lt;p&gt;The Shortcuts app itself would be pretty handy in general, you’ll be able to build Automator-style “Shortcuts” that can trigger actions throughout the OS. Apple showed that third-parties will also be able to integrate with this, so the benefits begin to snowball into something very interesting. Apple didn’t stop there, however. Combine all of this with the “Siri” side of things:  Shortcuts will be able to trigger using custom voice phrases that the user can assign for Siri. Telling Siri “laundry time” could kick off a custom Shortcut that the user created, for example. The icing on the cake with all of this is that, beyond just voice, Siri will recognize patterns in usage for these Shortcuts and offer recommendations for them throughout the OS.&lt;/p&gt;
+
+&lt;p&gt;Some examples of Siri recommendations include Spotlight/Siri search, where the user can pull down on the home screen and it will present some suggested shortcuts based on relevant context (time, location, etc). Running late for a meeting? It may offer to text your boss. Going to the gym? It may recognize a gym Shortcut you setup to start a workout and listen to a podcast.&lt;/p&gt;
+
+&lt;p&gt;These recommendations can also be helped along by third-party apps. These apps can “donate” Siri relevant data for it to analyze and find patterns with. Apple offers various ways to “nudge” Siri in the right direction if you know you want the user to see this information within certain times, events, etc, but overall it sounds like it should be pretty capable of learning and offering useful suggestions.&lt;/p&gt;
+
+&lt;p&gt;Some other ways these Shortcuts will come up include the lock screen and the Siri watch face for Apple watch. This is particularly exciting, as it will be possible for many tasks to be carried off in the background, the user simply needs to invoke it from the watch face or trigger phrase.&lt;/p&gt;
+
+&lt;p&gt;While some of these details are still unclear, these Siri Shortcuts offer a huge leap in capabilities for Siri. What used to be a fairly limited set of SiriKit domains will not be opened pretty wide for third-parties to do as they please. It hasn’t been made clear if apps will be able to request additional information, such as asking the user for input without opening the app, but if this isn’t available at launch, surely it won’t be far behind.&lt;/p&gt;
+
+&lt;p&gt;Since these trigger phrases will be programmed by the user, it sounds like they won’t be fine-grained enough to accept variable inputs. While it would be awesome to, for example, be able to say “order 2 pizzas” and have it parse each word to understand quantity and product, the reality sounds like it will be closer to “order pizza” and the app will guide you through the details.&lt;/p&gt;
+
+&lt;p&gt;One curiosity I’m anxious to see is how all of this fits into the Shorcuts app. Workflow the app is capable of requesting user input for variables, but what if this went a step further and allowed Siri to not only trigger by the phrase, in this case “order pizza”, but could also ask follow-up questions like “what toppings?”, “what size?” and “how many?”. These will be more difficult of course, and likely won’t be available immediately, but it would really complete the autonomous nature that this concept is creating.&lt;/p&gt;
+
+&lt;p&gt;Earlier this year, Google showed off an AI feature that attempted to mimic a human being calling over the phone for use as their assistant. It was intended to set appointments and things of that nature, but ultimately came off a little too uncanny and creepy for a lot of people. While the idea is neat, it takes much of the human/AI grey area too far. What Apple could accomplish with these new functions is an alternative option to Google’s AI: A way for the user to quickly and effortlessly accomplish the same tasks, but without the creepy phone call to somewhere.&lt;/p&gt;
+
+&lt;p&gt;We’ve already seen Apple’s ability to integrate with ride sharing and restaurant booking via Siri. No phone calls are needed, but the user can quickly request what is needed and get a result. Shortcuts has the potential to take this to the next level and allow third-parties to develop their own options for booking appointments, ordering food, etc. While this will depend on the companies to build support, it would allow a clear separation of that uncanny valley and allow the same work to be done. This also leaves far less room for error, as a properly developed app would be able to know what problems they may run into, rather than an AI that hopefully is able to respond when confronted with an unexpected human question.&lt;/p&gt;
+
+&lt;p&gt;Overall, Siri Shortcuts are still in early days. We haven’t even seen the full Shortcuts app yet, so it’s hard to know just where the separation from Workflow to Shortcuts exists. The fact that we have any integration with iOS is a huge leap forward, let alone the fact that third-party apps will be able to tie into not only the Shortcuts app, but Siri voice triggers and the various suggestions throughout the ecosystem. These will all continue to evolve into something much more complex that everyone can benefit from.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="wwdc" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">WWDC 2018</title>
+      <link href="http://localhost:4000/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
+      <published>2018-06-05T13:49:00-04:00</published>
+      <updated>2018-06-05T13:49:00-04:00</updated>
+      <id>http://localhost:4000/wwdc-2018</id>
+      <content type="html" xml:base="http://localhost:4000/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
+
+&lt;p&gt;There was a bit too much to cover here, so I’ll try to tackle a few favorites (though I’m sure I’ll still forget some of those!). For me, the biggest surprise and my favorite announcement was the Siri Shorcuts. This is a combination of a few things, but a lot of it ties into the Shortcuts app that will be coming out for iOS 12. This appears to be the result of Apple’s acquisition of the Workflow app and team, as it strongly resembles it.&lt;/p&gt;
+
+&lt;p&gt;Effectively, Shortcuts allows the user to create their own “scripts” to run various actions, and by being integrated into iOS now, it looks like they’ll provide even more fine-grained ways to work with this than before. By itself this would be a pretty neat feature, but on top of this, users will be able to assign voice triggers for both the shortcuts they create as well as first and third-party apps that have their own functions. This opens a lot of possibilities up for using Siri, as you can create your own memorable trigger phrases to take whatever actions you want.&lt;/p&gt;
+
+&lt;p&gt;Going yet another step further, voice isn’t the only way a user is required to trigger these shortcuts. The machine learning side of Siri will also be able to recognize patterns in usage and suggest shortcuts to the user in a variety of ways, ranging from Spotlight, the lock screen, even the Siri watch face on the Apple Watch. If a user does a particular action every day at the same time, or location, etc, Siri can recommend this shortcut to the user, allowing them to bypass what would otherwise be a lot of manual steps. As this evolves, this has the potential to be a complete game changer in this space.&lt;/p&gt;
+
+&lt;p&gt;Along with shortcuts showing up on the watch, third parties will be able to integrate with the Siri watch face now as well. This was something everyone has wanted since the watch face was announced last year, so it seems obvious, but none the less this is a great addition.&lt;/p&gt;
+
+&lt;p&gt;The watch is also getting both a native podcasts app as well as support for third party background audio, meaning third party podcasts apps as well. I use Overcast for podcasts, but the developer of it, Marco Arment, has long been unsatisfied with the options available to make a proper watch app. it sounds like Apple has listened, as he is already planning some big updates for Overcast which is great.&lt;/p&gt;
+
+&lt;p&gt;Also on the watch is a feature that was supposed to show up in the first generation of the watch and quietly disappeared by launch, walkie-talkie. I’m not sure what the reason for the delay was, but either way, it’s here now and looks like it should be a pretty handy feature. While I can’t see myself using it all of the time, it could be handy when you just need a quick message, be it to someone across the house, or for quick confirmation if you’re out somewhere. We’ll see how my usage of it evolves once it comes out, but I’m excited to see what it’s like either way.&lt;/p&gt;
+
+&lt;p&gt;Something really interesting coming to the watch is the ability to invoke Siri without using “hey Siri”. They claim it will respond simply by you raising your wrist and speaking the command. They seem pretty confident that it won’t trigger accidentally, but we’ll see how that plays out. This has a lot of potential to be useful, but I’m still a bit skeptical just yet.&lt;/p&gt;
+
+&lt;p&gt;A nice update coming to both the watch and iOS are notifications. People have long complained about notifications lacking a way to group them, so finally that request has been heard. Not only can notifications be grouped, but iOS will also allow you to easily tweak notification settings from from each one. You’ll be able to have them silently go straight to notification center instead of pinging you, which is really useful. Siri will also be able to suggest changes to the notifications, presumably based on how much you do or don’t interact with them. Do Not Disturb mode is also being enhanced so you don’t need to disable notifications entirely, but rather can just turn on DND for an hour, or have it turn off when you leave a location.&lt;/p&gt;
+
+&lt;p&gt;Another interesting feature for the watch is Student ID cards. It’s not clear if this will branch out to more sooner than later, but it seems users will not need a full blown ID badge around college campuses. Rather, their watch will be able to work as their ID and the NFC capabilities of the watch will be able to work with readers to authenticate students, pay for snacks, laundry, etc.&lt;/p&gt;
+
+&lt;p&gt;Enough about watchOS though (that could be a post of its own!), iOS is getting some big changes that I love too. Group FaceTime will finally be a thing, supporting up to 32 users! They have a pretty nice UI for it that isn’t as jarring as most that I’ve used seem to be. Users will be able to hop in and out on demand like a chat room, which is pretty useful too.&lt;/p&gt;
+
+&lt;p&gt;Apple also demoed some new ARkit functionality, using LEGOs in a way that brought them to life. I’m a little conflicted on this, as half of the fun for me with LEGOs has always been interacting with them using my imagination, but their presentation does present it more as a way to extend the fun. Either way, they’re making some huge strides in ARkit, especially only being a year old. It’s clear they’re laying down a foundation for something huge further down the road, as in, glasses.&lt;/p&gt;
+
+&lt;p&gt;Outside of that, another one of my favorites include the performance improvements they started off with. When it was announced, I was skeptical that we’d even notice a difference here. After loading the beta up on my iPad Air 2 (now nearly 4 years old and sluggish), it’s not just that it feels like a new device, but the perceived performance enhancements almost seem faster than it was on day one. Not only do I get more life out of this aging device, it’s even better than ever! I’m excited to see how this works across my other devices, as users have reported the same improvements across iPhone and watchOS, which is very promising.&lt;/p&gt;
+
+&lt;p&gt;Overall, while there’s always room for improvement, I think this was a very promising WWDC. It was filled with way more than most of us were expecting, and lays down a foundation for bigger things in the coming years. I’m pretty excited to see how things unfold, but it seems like the betas are incredibly fast and stable already, so that’s a great start. Perhaps we’ll be in for something huge in the fall?&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="wwdc" />
+      
+        <category term="ios" />
+      
+        <category term="watchos" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">E.T. Phone Home(Pod)</title>
+      <link href="http://localhost:4000/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
+      <published>2018-02-12T14:21:00-05:00</published>
+      <updated>2018-02-12T14:21:00-05:00</updated>
+      <id>http://localhost:4000/e-t-phone-home-pod</id>
+      <content type="html" xml:base="http://localhost:4000/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, I decided it was worth at least trying one out during Apple’s return window and see where I land. I picked one up from the local mall and plugged it in over my mantel. At first I was pretty unimpressed, the sound seemed good, but not amazing. I did quickly realize we were mostly playing music from the ’60s, like the Beatles, which may not have been recorded to really show this thing off. Next we queued up some modern pop songs with a mix of highs, mids and lows to really demo the range. This is definitely where the HomePod shines. It’s not like older music is bad on it, but I realized there is only so much you’ll be able to differentiate from older recordings.&lt;/p&gt;
+
+&lt;p&gt;Later that day we tried AirPlaying the Apple TV audio to the HomePod to see how well it works as a sound bar of sorts. It works, with somehow less delay than my other AirPlay speakers even (there is typically a 2-second delay between pressing pause/play and the actual result, but they all stay in sync otherwise). It is more quiet than music on the same device, but it still showed me how much we’ve been lacking from the standard TV speakers. This is something that a proper sound system would probably be equally impressive with, but having none of that, it’s nice to have one device solve multiple problems. There’s a lot of potential for this to be the perfect solution for us when two HomePods can be paired together in stereo.&lt;/p&gt;
+
+&lt;p&gt;Finally I had a chance to sit down with it on the evening of the second day and properly compare it to my existing stereo system that I would say is probably the “best” in the house. It’s a custom system I pieced together, consisting of a standalone amp attached to some decent bookshelf speakers and an AirPort Express providing AirPlay input to the amp. While my tests weren’t super thought out, I tried to place the speakers and HomePod in ways that wouldn’t get in each other’s ways but still provide a good test for their typical usage. They say the HomePod needs to play music for a little while to calibrate itself after it’s been moved, so perhaps that explains things, but at first I was a little disappointed. While HomePod was better, it didn’t seem like by much. It certainly fills a room better, anywhere you walk the sound is pretty consistent, but sitting in front of both, the sound seemed only marginally better. I decided to put on an Apple Music playlist, hoping it would have some songs just for this purpose. It wasn’t until the song “Fitzpleasure” by alt-J came on that the difference became incredibly clear. The range on the song really set things apart and made my old system sound hollow and tinny. I hate to use the comparison, but it really was similar to going from a standard display to retina. Hearing the difference, it’s hard to go back to the other&lt;sup&gt;&lt;a href=&quot;#one&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;One observation I’ve made about this speaker is how it automatically tunes itself for each song. This is something in the past I would have had to do pretty regularly either on my amp directly or via a software equalizer, and is something I really don’t care to interact with. I realize that’s the least audiophile thing to say, but I’m no audiophile 🙂 I think I pretty well sum up the market this device is for, average consumers who just want music to sound good without any extra effort. I don’t want to mess with speaker placement, tucking wires or messing with equalizers. I just want a device I can plug in and have results that work as expected without any tweaking. HomePod definitely does great at that, and not just because it learns your room, but in general because it has a lot of engineering in the DSP to really make a lot happen from a small device.&lt;/p&gt;
+
+&lt;p&gt;When it comes to music, HomePod is a winner. It has reminded me of why I ever invested in a decent sound system to start with, not to mention my collection of vinyls. It wasn’t about sound quality as much as just the experience of sitting and actively listening to music instead of passively while doing something else. HomePod makes me want to sit and enjoy music with friends in a way I haven’t in a long time.&lt;/p&gt;
+
+&lt;p&gt;HomePod is marketed at having “room filling sound”. The concept seems pretty simple, it just needs to make the room have sound from anywhere. This is actually a pretty tough trick typically, since most stereo systems use two speakers pointed forward. You’ll hear music outside of there, but it tends to very quickly lose its quality as you veer from being directly in front. HomePod has a circular array of tweeters, and using their fancy software and processor, they can adjust the sound based on the room dynamics. This means, typically, anywhere I went in the room after it adjusted itself (which happens during the first song you play) the sound was the same. It’s one of those things you kind of have to experience to really feel it, but it transforms the way you listen to music in a lot of ways.&lt;/p&gt;
+
+&lt;p&gt;Beyond all of that, there is of course the Siri functionality. I will definitely say that personally, I’ve been using Siri since my iPhone 4S which I got a few weeks after launch. It has been something I find incredible value in, and the evolution of features over time has only increased that value for me. I know plenty of people like to trash talk it, say it doesn’t work, or that it is “light years behind &amp;lt;Alexa/Google Assistant&amp;gt;”. While this debate is best saved for another time, overall my experience on the iPhone with Siri has been pretty much on par with Google Assistant and in most cases&lt;sup&gt;&lt;a href=&quot;#two&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; far surpasses Alexa. Notice I said on iPhone though.&lt;/p&gt;
+
+&lt;p&gt;HomePod Siri unfortunately comes out of the gate crippled a bit more than its iOS version. While 95% of my queries have been fine, there have been a few times where it simply says “I can’t do that on HomePod” or similar, even for something simple like weight conversions. It tended to work after I adjusted the wording slightly, but that’s still unfortunate. They market this device as being a musicologist, and thusly, Siri is ideal for music requests. This has been overall a great success, but I have had it hiccup on requests like “Who’s the drummer in this?” for bands where the answer is obvious, such as the Beatles. It was a more obscure song, but it should still be able to get that data regardless of what is attached to each song. However, this really was only a problem for that song, overall it’s been able to tell me all sorts of random facts about the music, from who plays what, to who wrote the specific song in bands like the Beatles where it regularly alternates.&lt;/p&gt;
+
+&lt;p&gt;Another quirky aspect of HomePod with regards to Siri is Apple’s approach to tying in things like messages and reminders. HomePod allows you to set reminders or send messages with Siri, but only if you give permission to, because unfortunately they don’t do any type of voice detection to ensure the wrong user isn’t attempting to read/send messages. This also means these services are only tied to one user for now, but I imagine all of this will change with an update in the near future. Ideally they will provide multiple voice detection (Google already can, and Siri can on iOS) that can tie to each user’s profiles.&lt;/p&gt;
+
+&lt;p&gt;An interesting approach they took was forcing these interactions to occur on the user’s phone. Basically, it detects the request and passes it to the phone for processing. This also aids in a kind of security, as these interactions can only occur when the user is on the same wifi. At least this way no one will be reading your messages if you’re not home. I don’t now if they plan to keep this design, but I do kind of like it from an engineering aspect. By separating this out, in theory it only needs to store data about who’s phone to send to, so potentially as they add support for more users, it could simply know how to route to the user’s phone and do the rest. This keeps things secure and private in some ways, but it’s not like there’s much one could extract from HomePod either way. I also could see this being a way they allow users to authorize interactions, using Touch/Face ID when needed, since it all interacts with the phone anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;one&quot;&gt;&lt;/a&gt;
+One of the most impressive parts of the Siri experience on HomePod is how well it can hear you, regardless of how loud music may be. I’ve done multiple tests with volume at 100% and am still able to make requests to Siri at what I would consider a normal speaking volume. You certainly won’t be whispering at 100% volume, but I think you can still talk slightly quieter than if you were talking to someone else in the same room at that volume. At 60% you can easily talk lower than regular speaking volume and Siri will hear you perfectly. I haven’t had any mistakes in what it heard me request so far either, which is a common issue people complain about on iOS. Clearly this thing benefits a ton from having always-on power and an array of mics. The internal processing it does with all of the sound definitely helps it pick up these sounds over the other noise, which is super useful for play/pause commands.
+&lt;a name=&quot;two&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(1)&lt;/strong&gt; As a follow up, I did end up doing some further tuning and concluded that my existing setup is a lot better than I thought initially. The HomePod still does better at the “room filling” aspect, as mine requires sitting in the “sweet spot”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(2)&lt;/strong&gt; Alexa does have tons of “skills”, but I’ve never known anyone who uses these are more than a party trick, and most of them are clunky even for that. There are going to be a few things each assistant does better than the other, with Alexa’s multiple timers being better than Siri’s single timer, but I’ve learned tricks like using alarms and reminders to solve that ages ago.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="homepod" />
+      
+        <category term="siri" />
+      
+        <category term="airplay" />
+      
+        <category term="smart-speaker" />
+      
+
+      
+        <summary type="html">When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Siri Speaker</title>
+      <link href="http://localhost:4000/siri-speaker" rel="alternate" type="text/html" title="Siri Speaker" />
+      <published>2017-05-01T14:17:00-04:00</published>
+      <updated>2017-05-01T14:17:00-04:00</updated>
+      <id>http://localhost:4000/siri-speaker</id>
+      <content type="html" xml:base="http://localhost:4000/siri-speaker">&lt;p&gt;Rumors are ramping up lately that Apple will make a Siri speaker soon. This seems reasonable as that space is growing fast and they don’t want to be left behind. Some concerns I’ve read were things like needing a screen for some tasks where these assistants can fall short. What if Apple’s magic up its sleeve is using their Handoff/Continuity features to pass over to your phone when a screen is needed? You make a request, but perhaps it’s a really long article that comes back. Rather than have her read the entire thing, an icon shows up on your phone/iPad/watch or she even vibrates it (based on knowing who asked) so you can read it.&lt;/p&gt;
+
+&lt;p&gt;Another useful feature could be integration with AirPods and the likes. They can’t do “Hey Siri”, but if you’re wearing them and ask it, they could be used to playback the response instead of the speaker. This device, which would always be plugged in, could have some new chip like the W1 for Bluetooth, allowing multiple users to have AirPods paired to it and act as a central hub when you’re home, no need to have a phone handy. These are definitely some lofty goals, but worth discussing at the very least.&lt;/p&gt;
+
+&lt;p&gt;Different thought: What if we’re on the completely wrong track with this? What if instead, Apple uses the W1 Bluetooth tech and builds a Bluetooth speaker and mic that has some slight “smarts” to it, in that, it can sense multiple users’ voices for “Hey Siri” but ultimately it still routes back to the user’s connected phone? You could have these placed all over the house for fairly cheap, and being always on/plugged in, they could have far better Bluetooth range and capabilities. This wouldn’t limit the device to only being able to read out voice replies, as the user’s phone would do the actual work and they could just look at their phone at any point to see the same response. This also would make the possibility of adding more functions like mesh wifi, and still keep the price point lower.&lt;/p&gt;
+
+&lt;p&gt;Routing to the user’s phone would be great for privacy too. The centralized device, accessible from anyone in the home, could just be “dumb”, the real “smarts” happening on the individual’s private, encrypted device. This could be tricky, since it would need really good voice detection and possibly a way to authenticate, but would certainly follow Apple’s “Think Different” motto.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="smart-speaker" />
+      
+        <category term="w1" />
+      
+        <category term="bluetooth" />
+      
+        <category term="iphone" />
+      
+
+      
+        <summary type="html">Rumors are ramping up lately that Apple will make a Siri speaker soon. This seems reasonable as that space is growing fast and they don’t want to be left behind. Some concerns I’ve read were things like needing a screen for some tasks where these assistants can fall short. What if Apple’s magic up its sleeve is using their Handoff/Continuity features to pass over to your phone when a screen is needed? You make a request, but perhaps it’s a really long article that comes back. Rather than have her read the entire thing, an icon shows up on your phone/iPad/watch or she even vibrates it (based on knowing who asked) so you can read it.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Theories on Apple’s W1 pairing</title>
+      <link href="http://localhost:4000/theories-on-apples-w1-pairing" rel="alternate" type="text/html" title="Theories on Apple's W1 pairing" />
+      <published>2016-12-15T18:44:33-05:00</published>
+      <updated>2016-12-15T18:44:33-05:00</updated>
+      <id>http://localhost:4000/theories-on-apples-w1-pairing</id>
+      <content type="html" xml:base="http://localhost:4000/theories-on-apples-w1-pairing">&lt;p&gt;Since my last post, I’ve been putting a lot more thought into the pairing capabilities of Apple’s new W1 chip. A lot of folks are convinced the W1 itself is where the magic happens. I’m not saying that is impossible, but since Apple insists you must have the latest iOS/macOS and iCloud enabled for the seamless pairing to work, it should be obvious there is a lot more software involved than hardware.&lt;/p&gt;
+
+&lt;p&gt;If the W1 isn’t responsible for this pairing magic, what is? Without having a pair of W1 headphones I can only speculate, but after a lot of Bluetooth research I have some theories. For starters, if the hardware were responsible, yet allows non-Apple hardware to be paired, it seems unusual to go out of the way to build special functionality into an otherwise full Bluetooth stack. In theory, if the hardware could pair with more than 1-2 devices (something Bluetooth can already do), what would stop a non-Apple device from being the 3rd or 4th device to pair?&lt;/p&gt;
+
+&lt;p&gt;Some theories have been floating around that the W1 uses the new Bluetooth 5 specification. While this isn’t impossible or even that unlikely (except for it just being adopted a week ago), it only explains the better battery and reception of these devices. The specification doesn’t go into details about pairing, so regardless of Bluetooth 5, that doesn’t seem to be the culprit here.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that Bluetooth has supported up to 8 device pairing for a while, but most hardware simply doesn’t support that. We could simply be seeing a pair of headphones that supports 8 “slots” for remembering devices, but that hasn’t been explicitly called out by Apple, nor should that require the latest iOS/macOS either. While this may be partly responsible, you would expect at least a little more delay or work to get other devices paired. From everything we’ve seen, the moment one device is paired, they all can see it.&lt;/p&gt;
+
+&lt;p&gt;My current running theory is that we’re seeing something similar or related to the Handoff functionality Apple has supported for a few generations now. I believe the real “magic” happens on the OS during pairing. The tricky part is that during pairing, unique information is passed around to encrypt and ensure the two devices are talking to each other. I believe this data is what is requiring iCloud, and somehow they are either “spoofing” with a fake identifier or injecting data on each device, then using Handoff as the means to identify which device has the “Bluetooth baton” so to speak. As we already know, you have to select which device uses the headphones manually, and this process does seem to have a slight delay. This could be Handoff making sure the old device “disconnects” and the new one “connects” in a way that the headphones seamlessly believe is effectively the same device.&lt;/p&gt;
+
+&lt;p&gt;This is all just theory, I haven’t touched an actual W1 set of headphones yet to put any of this to the test, but most of my theory revolves around the need for the latest OS and iCloud to do this pairing. If this were using any form of standard Bluetooth, there’s really no reason the OS should matter, as it doesn’t on other headphones that can be paired with multiple devices.&lt;/p&gt;
+
+&lt;p&gt;Why would Apple make such a big deal out of the W1 then? Marketing mostly. People don’t (usually) buy Apple products to understand the tech, but rather the exact opposite. They want something that “just works” and by branding anything with the W1 as offering this “seamless pairing” you ensure a good user experience. I’m not faulting them for making it seem like the W1 is doing all of the heavy lifting, I’m mostly just curious if my theories are correct :)&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="w1" />
+      
+        <category term="airpods" />
+      
+        <category term="bluetooth" />
+      
+
+      
+        <summary type="html">Since my last post, I’ve been putting a lot more thought into the pairing capabilities of Apple’s new W1 chip. A lot of folks are convinced the W1 itself is where the magic happens. I’m not saying that is impossible, but since Apple insists you must have the latest iOS/macOS and iCloud enabled for the seamless pairing to work, it should be obvious there is a lot more software involved than hardware.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Apple’s W1 Wireless Chip (and why it may not be so “magical”)</title>
+      <link href="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
+      <published>2016-12-13T03:08:42-05:00</published>
+      <updated>2016-12-13T03:08:42-05:00</updated>
+      <id>http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
+      <content type="html" xml:base="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
+
+&lt;p&gt;Much of the hype around the W1 was simultaneously avoiding the word “Bluetooth” while trying to sound like a magical fix to all of our woes with current Bluetooth headphones. Since the announcement, very little official information about the W1 has come to light. They did release the Beats Solo3 and Powerbeats 3 headphones which included the W1, giving folks a chance to test out the various claims.&lt;/p&gt;
+
+&lt;p&gt;Let’s do a quick review of some of the biggest benefits of the W1:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fast pairing with devices&lt;/strong&gt; (they make a point that iCloud and iOS 10 are required for this, but effectively you just go to the device you want to use headphones on and as long as they are turned on, you should see them in the list where AirPlay devices normally show up)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Great battery life&lt;/strong&gt; (while not specified, this seems likely due to their custom chip being made at a smaller manufacturing process than most)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Better reception/signal&lt;/strong&gt; (e.g. less hiccups and skipping when your phone is in your pocket)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Apple has also stated (while carefully tiptoeing around ever using the name “Bluetooth”) they are using a Class 1 chip, which in itself addresses the reception/signal side of things. To be able to use a Class 1 (typically seen in devices with more dedicated power) specification implies the chip sips energy a LOT better than other devices, and thus the W1 is likely built on a smaller process.&lt;/p&gt;
+
+&lt;p&gt;While I’m not denying the W1 is custom, I have a feeling it does less of the “magic” I see so many blogs and forums speculating on. More than anything, I believe the W1 provides a better &lt;strong&gt;quality&lt;/strong&gt; Bluetooth chip than most, allowing better signal and battery life, but that is likely it. We already have seen in reviews that these devices function as normal Bluetooth devices on non-Apple hardware, and can even work as far back as the iPhone 5, but to get the “magic” features, iOS 10 is definitely required.&lt;/p&gt;
+
+&lt;p&gt;None of this is to say that Apple isn’t working &lt;em&gt;some&lt;/em&gt; kind of magic in how this all works, but I doubt much of it is in the W1 specifically. Where the W1 likely &lt;em&gt;does&lt;/em&gt; help, is the fact that they designed and built it in house. This means they can define what happens with this device during the pairing and broadcasting within the Bluetooth specifications. They can also ensure things like the name and MAC address fit within a criteria they can look for on the OS. MAC address may play less of a factor, but I still have some theories on how important it could be which I will touch on later.&lt;/p&gt;
+
+&lt;p&gt;Some quick background on Bluetooth might help here. When pairing a device, there are all sorts of boring things that happen, but among them it provides some specifications such as what type of device this is, what it is capable of, identifiers like MAC addresses, a name for display in the OS and things like that. I suspect this is where the real magic happens. Bluetooth has already been able to pair instantly to known hosts, or via NFC “tap to pair” functionality, but what about the initial pairing? What sets the W1 apart when used on an Apple device?&lt;/p&gt;
+
+&lt;p&gt;Let’s take what we know about AirPods as a place to start. We know that when you get a brand new set, you can simply open the lid of the case and with your iPhone nearby, iOS will pop up a “card” that shows what you’re trying to pair and an easy button to do so. I’ve seen some folks who are very impressed with this process, and while I agree this takes out &lt;em&gt;so much&lt;/em&gt; of the headache of traditional Bluetooth pairing in iOS, this isn’t proof that the W1 was required. Instead, this can be explained simply by the fact that when Bluetooth is broadcasting the initial pairing info, the OS knows what to look for. Part of the info being broadcast is a UUID for each service the device can provide, so you just keep an eye out for one specific UUID in the OS, knowing full well this relates to the W1, and give it special priority over any other Bluetooth doing the same thing. No W1 magic here, just a well-informed OS and better UI/UX than before.&lt;/p&gt;
+
+&lt;p&gt;We can agree pairing may not be anything too unusual, in fact in some ways this is just catching up to the NFC pairing Android has already been capable of for some time. What about the ability for these headphones to instantly be paired with every other device you own? This still doesn’t &lt;em&gt;require&lt;/em&gt; the W1, but some custom work wouldn’t have hurt if they really wanted to. I have been toying with a few ideas on how to best accomplish this task, and this is where I mentioned MAC addresses could be handy.&lt;/p&gt;
+
+&lt;p&gt;One potential option for iCloud pairing would be that you “spoof” the MAC address being paired. You could use an entirely made up one, or by simply storing the first paired device’s ID in the cloud. There’s a little more to it than just that, but storing IDs, keys and the likes is the broad overview here. On your other devices, if they want to pair, they can simply spoof their own ID with the one that is stored and any other necessary encryption/pairing info, combined with some of Apple’s handoff/continuity “magic”, telling each device they are allowed to take their turn with the headphones. This isn’t necessarily the best way to do this, but seems like an easy work around, especially when you control the ecosystem like Apple does. This could work fairly reliably, since you only have to guarantee it works with devices running the proper version of the OS as well as using iCloud (which it states is required).&lt;/p&gt;
+
+&lt;p&gt;Ultimately, most folks won’t care &lt;em&gt;how&lt;/em&gt; Apple achieved any of this, just that the hassle of Bluetooth pairing and device switching is easier. The reason this is a bit concerning, however, is because this opens a lot of potential for Apple to never fix the issue beyond their own Beats and Apple-branded hardware. Sure, they &lt;em&gt;could&lt;/em&gt; license the W1 chip to third-parties who can make their own headphones and speakers, but I don’t know how all of that might fit into the picture given they don’t seem to have the rights to call this “Bluetooth”, or at least are shying away from the name. It would be very Apple-like to require certification if they intend to share this at all, so don’t count on seeing support for your favorite brand anytime soon.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most annoying part of all of this is the fact that some obvious remedies to this problem have existed for a long time. Since iOS introduced the Control Center (swipe up from the bottom of the screen), there has been a Bluetooth (and WiFi) icon which lets you enable/disable it quickly. On Android, if you long-press this icon it jumps to the settings page for Bluetooth, where you can quickly select a device. As if that weren’t an easy enough fix, Apple later introduced the 3D Touch feature for the iPhone 6s and 7, which would make perfect sense for this use case. Ideally it wouldn’t even take you to the settings page (as that can be arguably poor UX) but instead pop up a bubble or card with a list of devices. Of course, by doing it that way (and in turn allowing any devices to quickly pair) there would be no reason to focus on this “magical” W1 chip and the devices it powers.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I’m just as excited as most for the prospect of easy pairing and an end to some of the most annoying aspects of Bluetooth. This whole thought process was more of a way to figure out how they are doing it, in hopes other OSes can benefit and mimic this functionality for everyone else’s benefit. Bluetooth has plenty of inherent flaws, but when it comes to the pairing process, I have a feeling the host software is mostly to blame for not making things easier. Again, some have tried, as we see with Android’s quick settings and NFC pairing. The moment Apple added NFC (for ApplePay) to the iPhone 6, I had high hopes we might see NFC pairing, but I suspect they would argue there are security concerns with that method.&lt;/p&gt;
+
+&lt;p&gt;By ensuring only their W1 chip (and maybe certified variants of it) gives pairing priority, Apple can provide the “best” user experience and just happen to make money on it at the same time. Could the Bluetooth specification be updated to make things more consistent? Sure, I’d love to see both sides cooperate in a way to identify accessories better and ensure faster pairing across the board. Will we see this anytime soon? Since the Bluetooth 5 spec was recently put in place, I wouldn’t hold my breath.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tl;dr:&lt;/strong&gt; most functionality being claimed possible (or at least strongly implied) because of the W1 could fairly easily be done in software on the host OS. Some of this functionality has already existed (NFC pairing on Android is similar) and by opening up this “magic” could make for a better UX for everyone with so many other Bluetooth devices, but instead we will likely have to pay a premium for faster/easier pairing in the Apple ecosystem for the foreseeable future.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="airpods" />
+      
+        <category term="w1" />
+      
+        <category term="wireless" />
+      
+        <category term="bluetooth" />
+      
+        <category term="iphone" />
+      
+        <category term="beats" />
+      
+        <category term="class-1" />
+      
+        <category term="nfc" />
+      
+
+      
+        <summary type="html">Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

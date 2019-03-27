@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/ios/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-03-27T15:07:28-04:00</updated>
+  <id>http://localhost:4000/tag/ios/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>The professional publishing platform</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">WWDC 2018</title>
+      <link href="http://localhost:4000/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
+      <published>2018-06-05T13:49:00-04:00</published>
+      <updated>2018-06-05T13:49:00-04:00</updated>
+      <id>http://localhost:4000/wwdc-2018</id>
+      <content type="html" xml:base="http://localhost:4000/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
+
+&lt;p&gt;There was a bit too much to cover here, so I’ll try to tackle a few favorites (though I’m sure I’ll still forget some of those!). For me, the biggest surprise and my favorite announcement was the Siri Shorcuts. This is a combination of a few things, but a lot of it ties into the Shortcuts app that will be coming out for iOS 12. This appears to be the result of Apple’s acquisition of the Workflow app and team, as it strongly resembles it.&lt;/p&gt;
+
+&lt;p&gt;Effectively, Shortcuts allows the user to create their own “scripts” to run various actions, and by being integrated into iOS now, it looks like they’ll provide even more fine-grained ways to work with this than before. By itself this would be a pretty neat feature, but on top of this, users will be able to assign voice triggers for both the shortcuts they create as well as first and third-party apps that have their own functions. This opens a lot of possibilities up for using Siri, as you can create your own memorable trigger phrases to take whatever actions you want.&lt;/p&gt;
+
+&lt;p&gt;Going yet another step further, voice isn’t the only way a user is required to trigger these shortcuts. The machine learning side of Siri will also be able to recognize patterns in usage and suggest shortcuts to the user in a variety of ways, ranging from Spotlight, the lock screen, even the Siri watch face on the Apple Watch. If a user does a particular action every day at the same time, or location, etc, Siri can recommend this shortcut to the user, allowing them to bypass what would otherwise be a lot of manual steps. As this evolves, this has the potential to be a complete game changer in this space.&lt;/p&gt;
+
+&lt;p&gt;Along with shortcuts showing up on the watch, third parties will be able to integrate with the Siri watch face now as well. This was something everyone has wanted since the watch face was announced last year, so it seems obvious, but none the less this is a great addition.&lt;/p&gt;
+
+&lt;p&gt;The watch is also getting both a native podcasts app as well as support for third party background audio, meaning third party podcasts apps as well. I use Overcast for podcasts, but the developer of it, Marco Arment, has long been unsatisfied with the options available to make a proper watch app. it sounds like Apple has listened, as he is already planning some big updates for Overcast which is great.&lt;/p&gt;
+
+&lt;p&gt;Also on the watch is a feature that was supposed to show up in the first generation of the watch and quietly disappeared by launch, walkie-talkie. I’m not sure what the reason for the delay was, but either way, it’s here now and looks like it should be a pretty handy feature. While I can’t see myself using it all of the time, it could be handy when you just need a quick message, be it to someone across the house, or for quick confirmation if you’re out somewhere. We’ll see how my usage of it evolves once it comes out, but I’m excited to see what it’s like either way.&lt;/p&gt;
+
+&lt;p&gt;Something really interesting coming to the watch is the ability to invoke Siri without using “hey Siri”. They claim it will respond simply by you raising your wrist and speaking the command. They seem pretty confident that it won’t trigger accidentally, but we’ll see how that plays out. This has a lot of potential to be useful, but I’m still a bit skeptical just yet.&lt;/p&gt;
+
+&lt;p&gt;A nice update coming to both the watch and iOS are notifications. People have long complained about notifications lacking a way to group them, so finally that request has been heard. Not only can notifications be grouped, but iOS will also allow you to easily tweak notification settings from from each one. You’ll be able to have them silently go straight to notification center instead of pinging you, which is really useful. Siri will also be able to suggest changes to the notifications, presumably based on how much you do or don’t interact with them. Do Not Disturb mode is also being enhanced so you don’t need to disable notifications entirely, but rather can just turn on DND for an hour, or have it turn off when you leave a location.&lt;/p&gt;
+
+&lt;p&gt;Another interesting feature for the watch is Student ID cards. It’s not clear if this will branch out to more sooner than later, but it seems users will not need a full blown ID badge around college campuses. Rather, their watch will be able to work as their ID and the NFC capabilities of the watch will be able to work with readers to authenticate students, pay for snacks, laundry, etc.&lt;/p&gt;
+
+&lt;p&gt;Enough about watchOS though (that could be a post of its own!), iOS is getting some big changes that I love too. Group FaceTime will finally be a thing, supporting up to 32 users! They have a pretty nice UI for it that isn’t as jarring as most that I’ve used seem to be. Users will be able to hop in and out on demand like a chat room, which is pretty useful too.&lt;/p&gt;
+
+&lt;p&gt;Apple also demoed some new ARkit functionality, using LEGOs in a way that brought them to life. I’m a little conflicted on this, as half of the fun for me with LEGOs has always been interacting with them using my imagination, but their presentation does present it more as a way to extend the fun. Either way, they’re making some huge strides in ARkit, especially only being a year old. It’s clear they’re laying down a foundation for something huge further down the road, as in, glasses.&lt;/p&gt;
+
+&lt;p&gt;Outside of that, another one of my favorites include the performance improvements they started off with. When it was announced, I was skeptical that we’d even notice a difference here. After loading the beta up on my iPad Air 2 (now nearly 4 years old and sluggish), it’s not just that it feels like a new device, but the perceived performance enhancements almost seem faster than it was on day one. Not only do I get more life out of this aging device, it’s even better than ever! I’m excited to see how this works across my other devices, as users have reported the same improvements across iPhone and watchOS, which is very promising.&lt;/p&gt;
+
+&lt;p&gt;Overall, while there’s always room for improvement, I think this was a very promising WWDC. It was filled with way more than most of us were expecting, and lays down a foundation for bigger things in the coming years. I’m pretty excited to see how things unfold, but it seems like the betas are incredibly fast and stable already, so that’s a great start. Perhaps we’ll be in for something huge in the fall?&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="wwdc" />
+      
+        <category term="ios" />
+      
+        <category term="watchos" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

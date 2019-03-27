@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Siri Shortcuts</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The professional publishing platform" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/siri-shortcuts" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="dippnerd" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Siri Shortcuts" />
+    <meta property="og:description" content="At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we" />
+    <meta property="og:url" content="http://localhost:4000/siri-shortcuts" />
+    <meta property="og:image" content="http://localhost:4000/" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2018-06-08T17:10:24-04:00" />
+    <meta property="article:modified_time" content="2018-06-08T17:10:24-04:00" />
+    <meta property="article:tag" content="Apple" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Siri Shortcuts" />
+    <meta name="twitter:description" content="At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="dippnerd" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Apple" />
+    <meta name="twitter:site" content="@dippnerd" />
+    <meta name="twitter:creator" content="@dippnerd" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "dippnerd",
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
+    },
+    "url": "http://localhost:4000/siri-shortcuts",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/siri-shortcuts"
+    },
+    "description": "At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Siri Shortcuts" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+                <a class="site-nav-logo" href="http://localhost:4000/"><span style="color:#229a0f">@</span><span style="color:#4285F4">dipp</span><span style="color: #229a0f; font-weight: 300;">(</span><span style="color:#1551b4">nerd</span><span style="color: #229a0f; font-weight: 300;">)</span></a>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/dippnerd" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://dippnerd.com/feed.xml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 8 June 2018"> 8 June 2018</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/apple/'>APPLE</a>, 
+                            
+                        
+                            
+                               <a href='/tag/wwdc/'>WWDC</a>, 
+                            
+                        
+                            
+                               <a href='/tag/siri/'>SIRI</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Siri Shortcuts</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.</p>
+
+<p>The Shortcuts app itself would be pretty handy in general, you’ll be able to build Automator-style “Shortcuts” that can trigger actions throughout the OS. Apple showed that third-parties will also be able to integrate with this, so the benefits begin to snowball into something very interesting. Apple didn’t stop there, however. Combine all of this with the “Siri” side of things:  Shortcuts will be able to trigger using custom voice phrases that the user can assign for Siri. Telling Siri “laundry time” could kick off a custom Shortcut that the user created, for example. The icing on the cake with all of this is that, beyond just voice, Siri will recognize patterns in usage for these Shortcuts and offer recommendations for them throughout the OS.</p>
+
+<p>Some examples of Siri recommendations include Spotlight/Siri search, where the user can pull down on the home screen and it will present some suggested shortcuts based on relevant context (time, location, etc). Running late for a meeting? It may offer to text your boss. Going to the gym? It may recognize a gym Shortcut you setup to start a workout and listen to a podcast.</p>
+
+<p>These recommendations can also be helped along by third-party apps. These apps can “donate” Siri relevant data for it to analyze and find patterns with. Apple offers various ways to “nudge” Siri in the right direction if you know you want the user to see this information within certain times, events, etc, but overall it sounds like it should be pretty capable of learning and offering useful suggestions.</p>
+
+<p>Some other ways these Shortcuts will come up include the lock screen and the Siri watch face for Apple watch. This is particularly exciting, as it will be possible for many tasks to be carried off in the background, the user simply needs to invoke it from the watch face or trigger phrase.</p>
+
+<p>While some of these details are still unclear, these Siri Shortcuts offer a huge leap in capabilities for Siri. What used to be a fairly limited set of SiriKit domains will not be opened pretty wide for third-parties to do as they please. It hasn’t been made clear if apps will be able to request additional information, such as asking the user for input without opening the app, but if this isn’t available at launch, surely it won’t be far behind.</p>
+
+<p>Since these trigger phrases will be programmed by the user, it sounds like they won’t be fine-grained enough to accept variable inputs. While it would be awesome to, for example, be able to say “order 2 pizzas” and have it parse each word to understand quantity and product, the reality sounds like it will be closer to “order pizza” and the app will guide you through the details.</p>
+
+<p>One curiosity I’m anxious to see is how all of this fits into the Shorcuts app. Workflow the app is capable of requesting user input for variables, but what if this went a step further and allowed Siri to not only trigger by the phrase, in this case “order pizza”, but could also ask follow-up questions like “what toppings?”, “what size?” and “how many?”. These will be more difficult of course, and likely won’t be available immediately, but it would really complete the autonomous nature that this concept is creating.</p>
+
+<p>Earlier this year, Google showed off an AI feature that attempted to mimic a human being calling over the phone for use as their assistant. It was intended to set appointments and things of that nature, but ultimately came off a little too uncanny and creepy for a lot of people. While the idea is neat, it takes much of the human/AI grey area too far. What Apple could accomplish with these new functions is an alternative option to Google’s AI: A way for the user to quickly and effortlessly accomplish the same tasks, but without the creepy phone call to somewhere.</p>
+
+<p>We’ve already seen Apple’s ability to integrate with ride sharing and restaurant booking via Siri. No phone calls are needed, but the user can quickly request what is needed and get a result. Shortcuts has the potential to take this to the next level and allow third-parties to develop their own options for booking appointments, ordering food, etc. While this will depend on the companies to build support, it would allow a clear separation of that uncanny valley and allow the same work to be done. This also leaves far less room for error, as a properly developed app would be able to know what problems they may run into, rather than an AI that hopefully is able to respond when confronted with an unexpected human question.</p>
+
+<p>Overall, Siri Shortcuts are still in early days. We haven’t even seen the full Shortcuts app yet, so it’s hard to know just where the separation from Workflow to Shortcuts exists. The fact that we have any integration with iOS is a huge leap forward, let alone the fact that third-party apps will be able to tie into not only the Shortcuts app, but Siri voice triggers and the various suggestions throughout the ecosystem. These will all continue to evolve into something much more complex that everyone can benefit from.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/aaron.png" alt="aaron" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/aaron">Aaron Dippner</a></h4>
+                                
+                                    <p>Software engineer who loves to nerd out about technology, home automation, gadgets and everything else.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/aaron">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; dippnerd &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/apple/">Apple</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/wwdc-2018">WWDC 2018</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/e-t-phone-home-pod">E.T. Phone Home(Pod)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/siri-speaker">Siri Speaker</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/apple/">
+                                
+                                    See all 5 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/belkin-thunderbolt-2-express-hd-dock">
+                <header class="post-card-header">
+                      <h2 class="post-card-title">Belkin Thunderbolt 2 Express HD Dock Review</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>This is very late to the game, but since there has been a slight resurgence in demand for 2015 Macbook Pro’s of late, I figured it might not hurt to give a short review on this unit. The Belkin Thunderbolt...</p>
+                    
+                </section>
+            </a>
+            
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/aaron.png" alt="Aaron Dippner" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/aaron/">Aaron Dippner</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/wwdc-2018">
+                <header class="post-card-header">
+                    <h2 class="post-card-title">WWDC 2018</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would...</p>
+                    
+                </section>
+            </a>
+            
+            <section class="post-card-tags">
+                Tags: 
+                    
+                        
+                            <a class="post-card-tags" href='/tag/apple/'>APPLE</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/wwdc/'>WWDC</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/ios/'>IOS</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/watchos/'>WATCHOS</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/siri/'>SIRI</a>
+                        
+                    
+            </section>
+            
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/aaron.png" alt="Aaron Dippner" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/aaron/">Aaron Dippner</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/"><span style="color:#229a0f">@</span><span style="color:#4285F4">dipp</span><span style="color: #229a0f; font-weight: 300;">(</span><span style="color:#1551b4">nerd</span><span style="color: #229a0f; font-weight: 300;">)</span></a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Siri Shortcuts</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Siri+Shortcuts&amp;url=https://dippnerd.com/siri-shortcuts"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://dippnerd.com/siri-shortcuts"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">dippnerd</a> &copy; 2019</section>
+                
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    <a href="https://twitter.com/dippnerd" target="_blank" rel="noopener">Twitter</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69281367-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

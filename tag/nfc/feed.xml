@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/nfc/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-03-27T15:07:28-04:00</updated>
+  <id>http://localhost:4000/tag/nfc/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>The professional publishing platform</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Apple’s W1 Wireless Chip (and why it may not be so “magical”)</title>
+      <link href="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
+      <published>2016-12-13T03:08:42-05:00</published>
+      <updated>2016-12-13T03:08:42-05:00</updated>
+      <id>http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
+      <content type="html" xml:base="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
+
+&lt;p&gt;Much of the hype around the W1 was simultaneously avoiding the word “Bluetooth” while trying to sound like a magical fix to all of our woes with current Bluetooth headphones. Since the announcement, very little official information about the W1 has come to light. They did release the Beats Solo3 and Powerbeats 3 headphones which included the W1, giving folks a chance to test out the various claims.&lt;/p&gt;
+
+&lt;p&gt;Let’s do a quick review of some of the biggest benefits of the W1:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fast pairing with devices&lt;/strong&gt; (they make a point that iCloud and iOS 10 are required for this, but effectively you just go to the device you want to use headphones on and as long as they are turned on, you should see them in the list where AirPlay devices normally show up)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Great battery life&lt;/strong&gt; (while not specified, this seems likely due to their custom chip being made at a smaller manufacturing process than most)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Better reception/signal&lt;/strong&gt; (e.g. less hiccups and skipping when your phone is in your pocket)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Apple has also stated (while carefully tiptoeing around ever using the name “Bluetooth”) they are using a Class 1 chip, which in itself addresses the reception/signal side of things. To be able to use a Class 1 (typically seen in devices with more dedicated power) specification implies the chip sips energy a LOT better than other devices, and thus the W1 is likely built on a smaller process.&lt;/p&gt;
+
+&lt;p&gt;While I’m not denying the W1 is custom, I have a feeling it does less of the “magic” I see so many blogs and forums speculating on. More than anything, I believe the W1 provides a better &lt;strong&gt;quality&lt;/strong&gt; Bluetooth chip than most, allowing better signal and battery life, but that is likely it. We already have seen in reviews that these devices function as normal Bluetooth devices on non-Apple hardware, and can even work as far back as the iPhone 5, but to get the “magic” features, iOS 10 is definitely required.&lt;/p&gt;
+
+&lt;p&gt;None of this is to say that Apple isn’t working &lt;em&gt;some&lt;/em&gt; kind of magic in how this all works, but I doubt much of it is in the W1 specifically. Where the W1 likely &lt;em&gt;does&lt;/em&gt; help, is the fact that they designed and built it in house. This means they can define what happens with this device during the pairing and broadcasting within the Bluetooth specifications. They can also ensure things like the name and MAC address fit within a criteria they can look for on the OS. MAC address may play less of a factor, but I still have some theories on how important it could be which I will touch on later.&lt;/p&gt;
+
+&lt;p&gt;Some quick background on Bluetooth might help here. When pairing a device, there are all sorts of boring things that happen, but among them it provides some specifications such as what type of device this is, what it is capable of, identifiers like MAC addresses, a name for display in the OS and things like that. I suspect this is where the real magic happens. Bluetooth has already been able to pair instantly to known hosts, or via NFC “tap to pair” functionality, but what about the initial pairing? What sets the W1 apart when used on an Apple device?&lt;/p&gt;
+
+&lt;p&gt;Let’s take what we know about AirPods as a place to start. We know that when you get a brand new set, you can simply open the lid of the case and with your iPhone nearby, iOS will pop up a “card” that shows what you’re trying to pair and an easy button to do so. I’ve seen some folks who are very impressed with this process, and while I agree this takes out &lt;em&gt;so much&lt;/em&gt; of the headache of traditional Bluetooth pairing in iOS, this isn’t proof that the W1 was required. Instead, this can be explained simply by the fact that when Bluetooth is broadcasting the initial pairing info, the OS knows what to look for. Part of the info being broadcast is a UUID for each service the device can provide, so you just keep an eye out for one specific UUID in the OS, knowing full well this relates to the W1, and give it special priority over any other Bluetooth doing the same thing. No W1 magic here, just a well-informed OS and better UI/UX than before.&lt;/p&gt;
+
+&lt;p&gt;We can agree pairing may not be anything too unusual, in fact in some ways this is just catching up to the NFC pairing Android has already been capable of for some time. What about the ability for these headphones to instantly be paired with every other device you own? This still doesn’t &lt;em&gt;require&lt;/em&gt; the W1, but some custom work wouldn’t have hurt if they really wanted to. I have been toying with a few ideas on how to best accomplish this task, and this is where I mentioned MAC addresses could be handy.&lt;/p&gt;
+
+&lt;p&gt;One potential option for iCloud pairing would be that you “spoof” the MAC address being paired. You could use an entirely made up one, or by simply storing the first paired device’s ID in the cloud. There’s a little more to it than just that, but storing IDs, keys and the likes is the broad overview here. On your other devices, if they want to pair, they can simply spoof their own ID with the one that is stored and any other necessary encryption/pairing info, combined with some of Apple’s handoff/continuity “magic”, telling each device they are allowed to take their turn with the headphones. This isn’t necessarily the best way to do this, but seems like an easy work around, especially when you control the ecosystem like Apple does. This could work fairly reliably, since you only have to guarantee it works with devices running the proper version of the OS as well as using iCloud (which it states is required).&lt;/p&gt;
+
+&lt;p&gt;Ultimately, most folks won’t care &lt;em&gt;how&lt;/em&gt; Apple achieved any of this, just that the hassle of Bluetooth pairing and device switching is easier. The reason this is a bit concerning, however, is because this opens a lot of potential for Apple to never fix the issue beyond their own Beats and Apple-branded hardware. Sure, they &lt;em&gt;could&lt;/em&gt; license the W1 chip to third-parties who can make their own headphones and speakers, but I don’t know how all of that might fit into the picture given they don’t seem to have the rights to call this “Bluetooth”, or at least are shying away from the name. It would be very Apple-like to require certification if they intend to share this at all, so don’t count on seeing support for your favorite brand anytime soon.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most annoying part of all of this is the fact that some obvious remedies to this problem have existed for a long time. Since iOS introduced the Control Center (swipe up from the bottom of the screen), there has been a Bluetooth (and WiFi) icon which lets you enable/disable it quickly. On Android, if you long-press this icon it jumps to the settings page for Bluetooth, where you can quickly select a device. As if that weren’t an easy enough fix, Apple later introduced the 3D Touch feature for the iPhone 6s and 7, which would make perfect sense for this use case. Ideally it wouldn’t even take you to the settings page (as that can be arguably poor UX) but instead pop up a bubble or card with a list of devices. Of course, by doing it that way (and in turn allowing any devices to quickly pair) there would be no reason to focus on this “magical” W1 chip and the devices it powers.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I’m just as excited as most for the prospect of easy pairing and an end to some of the most annoying aspects of Bluetooth. This whole thought process was more of a way to figure out how they are doing it, in hopes other OSes can benefit and mimic this functionality for everyone else’s benefit. Bluetooth has plenty of inherent flaws, but when it comes to the pairing process, I have a feeling the host software is mostly to blame for not making things easier. Again, some have tried, as we see with Android’s quick settings and NFC pairing. The moment Apple added NFC (for ApplePay) to the iPhone 6, I had high hopes we might see NFC pairing, but I suspect they would argue there are security concerns with that method.&lt;/p&gt;
+
+&lt;p&gt;By ensuring only their W1 chip (and maybe certified variants of it) gives pairing priority, Apple can provide the “best” user experience and just happen to make money on it at the same time. Could the Bluetooth specification be updated to make things more consistent? Sure, I’d love to see both sides cooperate in a way to identify accessories better and ensure faster pairing across the board. Will we see this anytime soon? Since the Bluetooth 5 spec was recently put in place, I wouldn’t hold my breath.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tl;dr:&lt;/strong&gt; most functionality being claimed possible (or at least strongly implied) because of the W1 could fairly easily be done in software on the host OS. Some of this functionality has already existed (NFC pairing on Android is similar) and by opening up this “magic” could make for a better UX for everyone with so many other Bluetooth devices, but instead we will likely have to pay a premium for faster/easier pairing in the Apple ecosystem for the foreseeable future.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="airpods" />
+      
+        <category term="w1" />
+      
+        <category term="wireless" />
+      
+        <category term="bluetooth" />
+      
+        <category term="iphone" />
+      
+        <category term="beats" />
+      
+        <category term="class-1" />
+      
+        <category term="nfc" />
+      
+
+      
+        <summary type="html">Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/cpu/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2019-03-27T15:07:28-04:00</updated>
+  <id>http://localhost:4000/tag/cpu/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>The professional publishing platform</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Layers of abstraction</title>
+      <link href="http://localhost:4000/layers-of-abstraction" rel="alternate" type="text/html" title="Layers of abstraction" />
+      <published>2016-12-23T16:27:58-05:00</published>
+      <updated>2016-12-23T16:27:58-05:00</updated>
+      <id>http://localhost:4000/layers-of-abstraction</id>
+      <content type="html" xml:base="http://localhost:4000/layers-of-abstraction">&lt;p&gt;Computers have had an interesting evolution over the past few decades. Early computers were entirely custom, following very few real standards aside from the load/store model and the likes. Over time, computers began to divide into two fairly distinct designs, CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer), with respective pros and cons at the time.&lt;/p&gt;
+
+&lt;p&gt;From a broad perspective, all computers are effectively “RISC” at their deepest core. Over the years, CISC (at least in relation to Intel and AMD’s x86/AMD64 Instruction Set Architecture, or ISA) came to represent the concept of effectively abstracting an underlying RISC design with a hardware layer that the chip allows to be accessed with a (typically) wider set of instructions that carry out more complex operations. To contrast this, RISC typically minimizes the amount of instructions and over simplifies things, relying on software to properly handle the complexities found in the CISC ISAs.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, neither is necessarily better than the other, as the technology has different demands and abilities for the time. As mobile computing has become increasingly popular, however, we’ve seen a resurgence in RISC-based architectures from the ARM ISA. At this point it could be argued that ARM hardly sticks to a true RISC design, but compared to x86/AMD64 it surely is simpler.&lt;/p&gt;
+
+&lt;p&gt;All of this aside, I believe in a purely idealistic scenario of computing, we would work to build the most simplistic and broadly designed ISAs, fundamentally RISC in nature, and simply build abstraction layers in software on top of it. This isn’t too far from how it already works, except with x86/AMD64 there is a layer of abstraction effectively built into the hardware. It is still “programmed” in some sense, but ideally even this layer wouldn’t be part of the chip as it stands now.&lt;/p&gt;
+
+&lt;p&gt;This layered approach is a bit tricky, as it quickly becomes a slippery slope in terms of just where to build each layer and how deep they should go. For the most part, current computers rely heavily on the operating system to act as the main abstraction for all software. This puts an awful lot of responsibility in one place. Instead, we should focus on building the necessary layers in a separate but compatible way. Putting layers on the chip itself gives too much responsibility to the chip, so instead it should be contained somewhere that can be updated separately, giving room to optimize the efficiency of the hardware.&lt;/p&gt;
+
+&lt;p&gt;When I say we should build layers, you may point out that in a sense there already are layers. Again, we must look at how much weight the operating system must carry because of this. Instead, we should almost build “operating systems” within other “operating systems.” Self-contained systems that can only interface to the layers above and below them, but never carrying more weight than necessary. This allows for optimization of each layer, and should any one piece break or act out of expectation, it should be easier to fix than one giant operating system is.&lt;/p&gt;
+
+&lt;p&gt;In a sense, this is not unlike the approach of a microkernel, but think more layers. A microkernel ideally takes the minimum required responsibility of a kernel, optimizing stability and putting most other work to the services that talk to the kernel. Effectively we should have an “ISA kernel” that sits between the super basic RISC-type CPU and allows the next layer to talk to it as a means to abstract the CPU. Another layer can handle memory management, device interactions and other I/O operations. Again, we keep this simple to simply abstract the more complex ways this would be handled underneath.&lt;/p&gt;
+
+&lt;p&gt;The real trick here isn’t that this hasn’t been tried, but rather finding the right approach is tricky. So many operating systems end up making compromises and having to combine layers or build layers that talk across to ones they traditionally aren’t responsible for. Perhaps we’ll see this executed properly some day, but it would be quite difficult to take an existing system and change those layers. Ideally, we’ll need a completely brand new system that makes no compromises, but would likely take a very long time with very slow progress.&lt;/p&gt;
+
+&lt;p&gt;The best approach may be to start by outlining what layers would be needed and how they should interact with one another. Initially I should expect performance would suffer because of the many layers, but this is just a small side effect to this design. If we stick to the core concepts, and keep the CPU simple, the chip requires far fewer transistors and theoretically should be easier to shrink more frequently. As the chip shrinks, we can increase efficiency both for energy but also performance. Both clock speed as well as architectural improvements (e.g. multiple cores and faster interfaces to cache and memory) should allow for faster execution of the many layers.&lt;/p&gt;
+
+&lt;p&gt;Theoretically we will eventually reach a point where the performance hits are negligible, but the return is an incredibly stable set of layers of abstraction. After a certain point, once the operating system and layers beneath are stable, software that interacts with them can be simplified with more layers that ensure programming is hard to screw up. This is all very idealistic, but hopefully some day will simply be the norm.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="computers" />
+      
+        <category term="cpu" />
+      
+        <category term="risc" />
+      
+        <category term="cisc" />
+      
+        <category term="arm" />
+      
+        <category term="x86" />
+      
+
+      
+        <summary type="html">Computers have had an interesting evolution over the past few decades. Early computers were entirely custom, following very few real standards aside from the load/store model and the likes. Over time, computers began to divide into two fairly distinct designs, CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer), with respective pros and cons at the time.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

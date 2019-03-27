@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Apple's W1 Wireless Chip (and why it may not be so "magical")</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="The professional publishing platform" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="dippnerd" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Apple's W1 Wireless Chip (and why it may not be so "magical")" />
+    <meta property="og:description" content="Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple" />
+    <meta property="og:url" content="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" />
+    <meta property="og:image" content="http://localhost:4000/" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2016-12-13T03:08:42-05:00" />
+    <meta property="article:modified_time" content="2016-12-13T03:08:42-05:00" />
+    <meta property="article:tag" content="Apple" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Apple's W1 Wireless Chip (and why it may not be so "magical")" />
+    <meta name="twitter:description" content="Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="dippnerd" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Apple" />
+    <meta name="twitter:site" content="@dippnerd" />
+    <meta name="twitter:creator" content="@dippnerd" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "dippnerd",
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
+    },
+    "url": "http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical"
+    },
+    "description": "Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Apple's W1 Wireless Chip (and why it may not be so "magical")" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+                <a class="site-nav-logo" href="http://localhost:4000/"><span style="color:#229a0f">@</span><span style="color:#4285F4">dipp</span><span style="color: #229a0f; font-weight: 300;">(</span><span style="color:#1551b4">nerd</span><span style="color: #229a0f; font-weight: 300;">)</span></a>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/dippnerd" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://dippnerd.com/feed.xml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post no-image">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="13 December 2016">13 December 2016</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/apple/'>APPLE</a>, 
+                            
+                        
+                            
+                               <a href='/tag/airpods/'>AIRPODS</a>, 
+                            
+                        
+                            
+                               <a href='/tag/w1/'>W1</a>, 
+                            
+                        
+                            
+                               <a href='/tag/wireless/'>WIRELESS</a>, 
+                            
+                        
+                            
+                               <a href='/tag/bluetooth/'>BLUETOOTH</a>, 
+                            
+                        
+                            
+                               <a href='/tag/iphone/'>IPHONE</a>, 
+                            
+                        
+                            
+                               <a href='/tag/beats/'>BEATS</a>, 
+                            
+                        
+                            
+                               <a href='/tag/class-1/'>CLASS-1</a>, 
+                            
+                        
+                            
+                               <a href='/tag/nfc/'>NFC</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Apple's W1 Wireless Chip (and why it may not be so "magical")</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p>Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.</p>
+
+<p>Much of the hype around the W1 was simultaneously avoiding the word “Bluetooth” while trying to sound like a magical fix to all of our woes with current Bluetooth headphones. Since the announcement, very little official information about the W1 has come to light. They did release the Beats Solo3 and Powerbeats 3 headphones which included the W1, giving folks a chance to test out the various claims.</p>
+
+<p>Let’s do a quick review of some of the biggest benefits of the W1:</p>
+
+<ul>
+  <li><strong>Fast pairing with devices</strong> (they make a point that iCloud and iOS 10 are required for this, but effectively you just go to the device you want to use headphones on and as long as they are turned on, you should see them in the list where AirPlay devices normally show up)</li>
+  <li><strong>Great battery life</strong> (while not specified, this seems likely due to their custom chip being made at a smaller manufacturing process than most)</li>
+  <li><strong>Better reception/signal</strong> (e.g. less hiccups and skipping when your phone is in your pocket)</li>
+</ul>
+
+<p>Apple has also stated (while carefully tiptoeing around ever using the name “Bluetooth”) they are using a Class 1 chip, which in itself addresses the reception/signal side of things. To be able to use a Class 1 (typically seen in devices with more dedicated power) specification implies the chip sips energy a LOT better than other devices, and thus the W1 is likely built on a smaller process.</p>
+
+<p>While I’m not denying the W1 is custom, I have a feeling it does less of the “magic” I see so many blogs and forums speculating on. More than anything, I believe the W1 provides a better <strong>quality</strong> Bluetooth chip than most, allowing better signal and battery life, but that is likely it. We already have seen in reviews that these devices function as normal Bluetooth devices on non-Apple hardware, and can even work as far back as the iPhone 5, but to get the “magic” features, iOS 10 is definitely required.</p>
+
+<p>None of this is to say that Apple isn’t working <em>some</em> kind of magic in how this all works, but I doubt much of it is in the W1 specifically. Where the W1 likely <em>does</em> help, is the fact that they designed and built it in house. This means they can define what happens with this device during the pairing and broadcasting within the Bluetooth specifications. They can also ensure things like the name and MAC address fit within a criteria they can look for on the OS. MAC address may play less of a factor, but I still have some theories on how important it could be which I will touch on later.</p>
+
+<p>Some quick background on Bluetooth might help here. When pairing a device, there are all sorts of boring things that happen, but among them it provides some specifications such as what type of device this is, what it is capable of, identifiers like MAC addresses, a name for display in the OS and things like that. I suspect this is where the real magic happens. Bluetooth has already been able to pair instantly to known hosts, or via NFC “tap to pair” functionality, but what about the initial pairing? What sets the W1 apart when used on an Apple device?</p>
+
+<p>Let’s take what we know about AirPods as a place to start. We know that when you get a brand new set, you can simply open the lid of the case and with your iPhone nearby, iOS will pop up a “card” that shows what you’re trying to pair and an easy button to do so. I’ve seen some folks who are very impressed with this process, and while I agree this takes out <em>so much</em> of the headache of traditional Bluetooth pairing in iOS, this isn’t proof that the W1 was required. Instead, this can be explained simply by the fact that when Bluetooth is broadcasting the initial pairing info, the OS knows what to look for. Part of the info being broadcast is a UUID for each service the device can provide, so you just keep an eye out for one specific UUID in the OS, knowing full well this relates to the W1, and give it special priority over any other Bluetooth doing the same thing. No W1 magic here, just a well-informed OS and better UI/UX than before.</p>
+
+<p>We can agree pairing may not be anything too unusual, in fact in some ways this is just catching up to the NFC pairing Android has already been capable of for some time. What about the ability for these headphones to instantly be paired with every other device you own? This still doesn’t <em>require</em> the W1, but some custom work wouldn’t have hurt if they really wanted to. I have been toying with a few ideas on how to best accomplish this task, and this is where I mentioned MAC addresses could be handy.</p>
+
+<p>One potential option for iCloud pairing would be that you “spoof” the MAC address being paired. You could use an entirely made up one, or by simply storing the first paired device’s ID in the cloud. There’s a little more to it than just that, but storing IDs, keys and the likes is the broad overview here. On your other devices, if they want to pair, they can simply spoof their own ID with the one that is stored and any other necessary encryption/pairing info, combined with some of Apple’s handoff/continuity “magic”, telling each device they are allowed to take their turn with the headphones. This isn’t necessarily the best way to do this, but seems like an easy work around, especially when you control the ecosystem like Apple does. This could work fairly reliably, since you only have to guarantee it works with devices running the proper version of the OS as well as using iCloud (which it states is required).</p>
+
+<p>Ultimately, most folks won’t care <em>how</em> Apple achieved any of this, just that the hassle of Bluetooth pairing and device switching is easier. The reason this is a bit concerning, however, is because this opens a lot of potential for Apple to never fix the issue beyond their own Beats and Apple-branded hardware. Sure, they <em>could</em> license the W1 chip to third-parties who can make their own headphones and speakers, but I don’t know how all of that might fit into the picture given they don’t seem to have the rights to call this “Bluetooth”, or at least are shying away from the name. It would be very Apple-like to require certification if they intend to share this at all, so don’t count on seeing support for your favorite brand anytime soon.</p>
+
+<p>Perhaps the most annoying part of all of this is the fact that some obvious remedies to this problem have existed for a long time. Since iOS introduced the Control Center (swipe up from the bottom of the screen), there has been a Bluetooth (and WiFi) icon which lets you enable/disable it quickly. On Android, if you long-press this icon it jumps to the settings page for Bluetooth, where you can quickly select a device. As if that weren’t an easy enough fix, Apple later introduced the 3D Touch feature for the iPhone 6s and 7, which would make perfect sense for this use case. Ideally it wouldn’t even take you to the settings page (as that can be arguably poor UX) but instead pop up a bubble or card with a list of devices. Of course, by doing it that way (and in turn allowing any devices to quickly pair) there would be no reason to focus on this “magical” W1 chip and the devices it powers.</p>
+
+<p>Don’t get me wrong, I’m just as excited as most for the prospect of easy pairing and an end to some of the most annoying aspects of Bluetooth. This whole thought process was more of a way to figure out how they are doing it, in hopes other OSes can benefit and mimic this functionality for everyone else’s benefit. Bluetooth has plenty of inherent flaws, but when it comes to the pairing process, I have a feeling the host software is mostly to blame for not making things easier. Again, some have tried, as we see with Android’s quick settings and NFC pairing. The moment Apple added NFC (for ApplePay) to the iPhone 6, I had high hopes we might see NFC pairing, but I suspect they would argue there are security concerns with that method.</p>
+
+<p>By ensuring only their W1 chip (and maybe certified variants of it) gives pairing priority, Apple can provide the “best” user experience and just happen to make money on it at the same time. Could the Bluetooth specification be updated to make things more consistent? Sure, I’d love to see both sides cooperate in a way to identify accessories better and ensure faster pairing across the board. Will we see this anytime soon? Since the Bluetooth 5 spec was recently put in place, I wouldn’t hold my breath.</p>
+
+<p><strong>tl;dr:</strong> most functionality being claimed possible (or at least strongly implied) because of the W1 could fairly easily be done in software on the host OS. Some of this functionality has already existed (NFC pairing on Android is similar) and by opening up this “magic” could make for a better UX for everyone with so many other Bluetooth devices, but instead we will likely have to pay a premium for faster/easier pairing in the Apple ecosystem for the foreseeable future.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/aaron.png" alt="aaron" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/aaron">Aaron Dippner</a></h4>
+                                
+                                    <p>Software engineer who loves to nerd out about technology, home automation, gadgets and everything else.</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/aaron">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; dippnerd &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/apple/">Apple</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/siri-shortcuts">Siri Shortcuts</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/wwdc-2018">WWDC 2018</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/e-t-phone-home-pod">E.T. Phone Home(Pod)</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/apple/">
+                                
+                                    See all 5 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/theories-on-apples-w1-pairing">
+                <header class="post-card-header">
+                      <h2 class="post-card-title">Theories on Apple's W1 pairing</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Since my last post, I’ve been putting a lot more thought into the pairing capabilities of Apple’s new W1 chip. A lot of folks are convinced the W1 itself is where the magic happens. I’m not saying that is impossible,...</p>
+                    
+                </section>
+            </a>
+            
+            <section class="post-card-tags">
+                Tags: 
+                    
+                        
+                            <a class="post-card-tags" href='/tag/apple/'>APPLE</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/w1/'>W1</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/airpods/'>AIRPODS</a>,
+                        
+                    
+                        
+                            <a class="post-card-tags" href='/tag/bluetooth/'>BLUETOOTH</a>,
+                        
+                    
+            </section>
+            
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/aaron.png" alt="Aaron Dippner" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/aaron/">Aaron Dippner</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/"><span style="color:#229a0f">@</span><span style="color:#4285F4">dipp</span><span style="color: #229a0f; font-weight: 300;">(</span><span style="color:#1551b4">nerd</span><span style="color: #229a0f; font-weight: 300;">)</span></a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Apple's W1 Wireless Chip (and why it may not be so "magical")</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Apple%27s+W1+Wireless+Chip+%28and+why+it+may+not+be+so+%22magical%22%29&amp;url=https://dippnerd.com/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://dippnerd.com/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">dippnerd</a> &copy; 2019</section>
+                
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    <a href="https://twitter.com/dippnerd" target="_blank" rel="noopener">Twitter</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69281367-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
