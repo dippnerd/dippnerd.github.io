@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/aaron/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T15:18:57-04:00</updated>
+  <updated>2019-03-27T16:10:22-04:00</updated>
   <id>http://localhost:4000/author/aaron/feed.xml</id>
 
   
@@ -30,6 +30,42 @@
   
   
 
+  
+    <entry>
+      <title type="html">Just Timers App Launched</title>
+      <link href="http://localhost:4000/just-timers-app" rel="alternate" type="text/html" title="Just Timers App Launched" />
+      <published>2019-03-22T18:31:01-04:00</published>
+      <updated>2019-03-22T18:31:01-04:00</updated>
+      <id>http://localhost:4000/just-timers-app</id>
+      <content type="html" xml:base="http://localhost:4000/just-timers-app">&lt;p&gt;Today I’ve launched my first iOS app, &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt;. Since iOS can natively only handle a single timer at a time, I’ve frequently found myself frustrated when I need more than one. While the App Store does contain some apps that can create multiple timers, they’re all missing one crucial feature:  Siri control.&lt;/p&gt;
+
+&lt;p&gt;That’s where Just Timers comes in, with the ability to use the iOS 12 feature “Siri Shortcuts” to assign your own voice phrases to timer actions like pause, resume and restart. While this is intended as the primary method of interacting with your timers, I’ve also extended the abilities into the iOS app &lt;a href=&quot;https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&quot;&gt;Shortcuts&lt;/a&gt;, which provides automation features for iOS. There is an extensive write up available on the &lt;a href=&quot;https://justtimers.app/help/shortcuts/&quot;&gt;Just Timers website&lt;/a&gt; which goes into detail on what commands are supported by the API, but long story short you can do everything Siri Shortcuts can and more. With a downloadable Shortcut available on that page, you can even create new timers completely hands free!&lt;/p&gt;
+
+&lt;p&gt;Please check out &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt; and give me some feedback if you can!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">Today I’ve launched my first iOS app, Just Timers. Since iOS can natively only handle a single timer at a time, I’ve frequently found myself frustrated when I need more than one. While the App Store does contain some apps that can create multiple timers, they’re all missing one crucial feature: Siri control.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Belkin Thunderbolt 2 Express HD Dock Review</title>
@@ -477,46 +513,6 @@ One of the most impressive parts of the Siri experience on HomePod is how well i
 
       
         <summary type="html">From time to time I hear a lot of complaints from people about voice assistants. Whether it be that they just don’t find them useful or they never work right, every case tends to follow some common themes. Now, I don’t mean to pull a Steve Jobs with the old “you’re holding it wrong” type thing, but I would be willing to bet a lot of users simply aren’t using their assistants correctly in some way.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Tech Narratives</title>
-      <link href="http://localhost:4000/tech-narratives" rel="alternate" type="text/html" title="Tech Narratives" />
-      <published>2017-09-20T18:37:00-04:00</published>
-      <updated>2017-09-20T18:37:00-04:00</updated>
-      <id>http://localhost:4000/tech-narratives</id>
-      <content type="html" xml:base="http://localhost:4000/tech-narratives">&lt;p&gt;All tech companies try to preach their narrative for how their hardware/software will change the world–it’s a great idea. The challenge is some tell their story better than others, even when the idea may ultimately be the same. Let’s take an example like Microsoft’s Band. It was marketed as a fitness tracker with tons of useful features, has a curved screen that makes it fairly unobtrusive and even makes it easier to read than something like a traditional watch, but it was still a flop.&lt;/p&gt;
-
-&lt;p&gt;This was an age when fitness trackers were really gaining traction, and smart watches like the Apple Watch were still struggling to even convince people they were a fitness tracker, so by all accounts the Microsoft Band seems like it should have taken off, but I would be willing to bet some of the problem is the narrative Microsoft told for it. While it was great on paper, we live in an age where people expect things to be distilled into a headline, a tweet. If you can’t captivate people with your story properly, they simply won’t get it.&lt;/p&gt;
-
-&lt;p&gt;Technology like computers have always required some level of teaching people about what ways it will improve their lives. One thing Apple is really good at, for example, is telling the story about how they want you to use their technology. They put on elaborate performances at each product announcement, filled with people demoing the product on stage, showing off a bunch of hip commercials that show their hardware/software doing something that people will really enjoy. While the Microsoft Band may have been superior to the Apple Watch in some ways, if people aren’t understanding your metaphors and the story you’re trying to portray of the future, it’s a hard sell.&lt;/p&gt;
-
-&lt;p&gt;Apple tends to make their technology almost seem like magic. The attention to detail both on hardware and software helps play into this feeling, as they don’t want users to think about this as technology, but rather more as an experience. Part of the problem here is Apple has long been portrayed as the “free spirit” and “fun” tech company, contrasted against Microsoft who traditionally is played as the “business” tech company. It’s hard to make business seem fun, but it’s easy to make technology seem fun when applied to already fun things, as Apple often gets away with. While the watch is a fitness tracker, and they show people working out, they also show people just doing fun activities like surfing while taking a phone call. Are these practical? Not really, but it’s the narrative they’ve created that makes people want it.&lt;/p&gt;
-
-&lt;p&gt;Telling a story about your technology, helping people envision how they would use it in ways they aren’t expecting, really helps push it forward. Now the Apple Watch is one of the most popular watches in the world, and a lot of that is simply by telling a story about how your individual life will be so much better for it, rather than &lt;em&gt;just&lt;/em&gt; talking about what things the watch can or can’t do.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Aaron Dippner</name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html">All tech companies try to preach their narrative for how their hardware/software will change the world–it’s a great idea. The challenge is some tell their story better than others, even when the idea may ultimately be the same. Let’s take an example like Microsoft’s Band. It was marketed as a fitness tracker with tons of useful features, has a curved screen that makes it fairly unobtrusive and even makes it easier to read than something like a traditional watch, but it was still a flop.</summary>
       
 
       
