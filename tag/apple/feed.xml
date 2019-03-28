@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/apple/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-03-28T10:42:09-04:00</updated>
+  <updated>2019-03-28T10:56:46-04:00</updated>
   <id>/tag/apple/feed.xml</id>
 
   
@@ -30,6 +30,66 @@
   
   
 
+  
+    <entry>
+      <title type="html">AirPods 2: Electric Boogaloo</title>
+      <link href="/airpods-2-electric-boogaloo" rel="alternate" type="text/html" title="AirPods 2&amp;#58; Electric Boogaloo" />
+      <published>2019-03-28T07:07:36-04:00</published>
+      <updated>2019-03-28T07:07:36-04:00</updated>
+      <id>/airpods-2-electric-boogaloo</id>
+      <content type="html" xml:base="/airpods-2-electric-boogaloo">&lt;p&gt;Last week Apple started surprising everyone with a product refresh every day. Starting on Monday, Apple refreshed the iPad Air and Mini, Tuesday saw a refresh of the iMac lineup and finally Wednesday saw the refresh of AirPods. While every product was a bit surprising to see, for most people the AirPods refresh was the most unexpected. There had been rumors of a refresh coming, but they were always pretty vague on details and timing. After much waiting, finally Apple revealed AirPods 2: Electric Boogaloo.&lt;/p&gt;
+
+&lt;p&gt;While some expected a complete redesign (or at least a dark color option), AirPods 2 are actually a fairly minor upgrade over the first generation. The biggest change is the added support for “Hey Siri” via the AirPods. Previously, you had to rely on double-tapping one AirPod (assuming you assigned Siri to that specific AirPod too) to summon the assistant. Now, AirPods 2 lets you simply utter “Hey Siri” into the air and the assistant will chime in. You can still assign a double-tap gesture to each AirPod, but no need for Siri for that anymore, giving room for more control.&lt;/p&gt;
+
+&lt;p&gt;While “Hey Siri” is the biggest change, that doesn’t mean the other changes are any less welcomed. The first generation used a chip Apple called the W1, their first wireless chip, to provide some of the cutting-edge features the first generation boasted. AirPods 2 now contain what Apple calls the H1 headphone chip, though in reality it is likely more of a marketing rebranding than a completely new chip. The H1 boasts up to 2x faster switching between active devices, 1.5x faster connection time for phone calls, up to 30 percent lower gaming latency, longer talk time, and of course the “Hey Siri” functionality.&lt;/p&gt;
+
+&lt;p&gt;One of my biggest complaints about the first generation AirPods was that, while it was nice to only have to pair them to one device and have them show up across the rest of my devices, often you would hit massive waiting periods while they switch from one device to another. Sometimes it was quick, but other times it would take longer than if I had just re-paired them manually, which could get frustrating. Some of this is simply the nature of Bluetooth, combined with the fact that some devices may be using an older Bluetooth chip or software. AirPods 2 do indeed fulfill some of their improved switching claims, but I’ve noticed this primarily relates to newer devices using Bluetooth 5.0, such as the iPhone XS and Apple Watch Series 4. When switching between the iPhone XS and my 2018 iPad (Bluetooth 4.2) the delays are mostly the same as the previous generation.&lt;/p&gt;
+
+&lt;p&gt;Regarding the 1.5x faster connection time for phone calls, I can’t speak to this specifically for phone calls yet, but I have noticed that the connected sound seems to happen much sooner than on previous generations. In the past, you would pop them out of their case and into your ears and sometimes it would be quick, other times it might take a few seconds before you hear the tone. For the most part with AirPods 2, by the time I have the first one in my ear I already hear the sound before I get a chance to put the second in. If this is any indicator of what to expect when taking a phone call, I think it will be a huge improvement.&lt;/p&gt;
+
+&lt;p&gt;Since I don’t play a lot of games, I can’t give real good feedback on the lower latency, but it does seem lower in general when interacting with user interfaces that provide sound feedback. The first generation weren’t terrible at this, but it was generally just noticeable enough to be annoying, so this hopefully fixes that.&lt;/p&gt;
+
+&lt;p&gt;One of the requirements for the new AirPods was updating to the latest OS versions. I’m not positive just what changed with that, but since watchOS 5.2 was delayed a few days I did wait until then to give a proper test between the iPhone XS and Apple Watch Series 4. As mentioned above, it does seem like when switching AirPods between two Bluetooth 5.0 devices have nearly instant switching, which is a great improvement.&lt;/p&gt;
+
+&lt;p&gt;AirPods have always been able to pair with both the phone and watch simultaneously, but generally it was shaky as to just which device would pick up tap gestures or Siri commands, which was always frustrating. It seems like the new “Hey Siri” on AirPods 2 prioritizes the phone, so that’s much appreciated (as the watch can’t do all of the same tasks as the phone). We’ll see over the longterm if this still holds up, but so far so good.&lt;/p&gt;
+
+&lt;p&gt;Outside of the AirPods themselves, the case also got a minor update that adds support for Qi wireless charging. I didn’t opt for this case since I have no problems charging mine every day, but it does seem useful for folks looking to just set their AirPods down somewhere to let them charge.&lt;/p&gt;
+
+&lt;p&gt;So far my only real “complaint” would be on the “Hey Siri” side of things. When you use the trigger phrase directly on the phone, you get a chime to let you know it heard you. With the AirPods there is no longer the same chime, Siri simply responds to your command, but this isn’t always immediate if she needs to fetch data from the web or something. This delay can cause you to think Siri didn’t hear you and cause you to try again, but I’ve been able to train myself to be more patient.&lt;/p&gt;
+
+&lt;p&gt;Another interesting detail is that the phone appears to wake the screen whenever you invoke Siri, regardless of whether you cover up the mics so only AirPods would be hearing you. This seems unnecessary if the phone is on your pocket, but they may have ways to detect that too. It’s a minor detail, but one that I found a bit unexpected given the context that Siri should only display something if there is an expectation of visual feedback over audio-only.&lt;/p&gt;
+
+&lt;p&gt;Overall I’m very pleased with this update of the AirPods. For the most part they’ve fixed all of my complaints with the last generation. The delays that still exist seem to be more at the fault of older devices, so that will likely improve as everything moves to Bluetooth 5.0+ anyway. “Hey Siri” is a hugely welcomed feature for me, as it has been the missing piece to the whole Siri ecosystem in my opinion.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="airpods" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">Last week Apple started surprising everyone with a product refresh every day. Starting on Monday, Apple refreshed the iPad Air and Mini, Tuesday saw a refresh of the iMac lineup and finally Wednesday saw the refresh of AirPods. While every product was a bit surprising to see, for most people the AirPods refresh was the most unexpected. There had been rumors of a refresh coming, but they were always pretty vague on details and timing. After much waiting, finally Apple revealed AirPods 2: Electric Boogaloo.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Siri Shortcuts</title>
