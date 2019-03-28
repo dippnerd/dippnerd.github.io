@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/bluetooth/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/tag/bluetooth/feed.xml</id>
+  <link href="/tag/bluetooth/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/tag/bluetooth/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Siri Speaker</title>
-      <link href="http://localhost:4000/siri-speaker" rel="alternate" type="text/html" title="Siri Speaker" />
+      <link href="/siri-speaker" rel="alternate" type="text/html" title="Siri Speaker" />
       <published>2017-05-01T14:17:00-04:00</published>
       <updated>2017-05-01T14:17:00-04:00</updated>
-      <id>http://localhost:4000/siri-speaker</id>
-      <content type="html" xml:base="http://localhost:4000/siri-speaker">&lt;p&gt;Rumors are ramping up lately that Apple will make a Siri speaker soon. This seems reasonable as that space is growing fast and they don’t want to be left behind. Some concerns I’ve read were things like needing a screen for some tasks where these assistants can fall short. What if Apple’s magic up its sleeve is using their Handoff/Continuity features to pass over to your phone when a screen is needed? You make a request, but perhaps it’s a really long article that comes back. Rather than have her read the entire thing, an icon shows up on your phone/iPad/watch or she even vibrates it (based on knowing who asked) so you can read it.&lt;/p&gt;
+      <id>/siri-speaker</id>
+      <content type="html" xml:base="/siri-speaker">&lt;p&gt;Rumors are ramping up lately that Apple will make a Siri speaker soon. This seems reasonable as that space is growing fast and they don’t want to be left behind. Some concerns I’ve read were things like needing a screen for some tasks where these assistants can fall short. What if Apple’s magic up its sleeve is using their Handoff/Continuity features to pass over to your phone when a screen is needed? You make a request, but perhaps it’s a really long article that comes back. Rather than have her read the entire thing, an icon shows up on your phone/iPad/watch or she even vibrates it (based on knowing who asked) so you can read it.&lt;/p&gt;
 
 &lt;p&gt;Another useful feature could be integration with AirPods and the likes. They can’t do “Hey Siri”, but if you’re wearing them and ask it, they could be used to playback the response instead of the speaker. This device, which would always be plugged in, could have some new chip like the W1 for Bluetooth, allowing multiple users to have AirPods paired to it and act as a central hub when you’re home, no need to have a phone handy. These are definitely some lofty goals, but worth discussing at the very least.&lt;/p&gt;
 
@@ -81,11 +81,11 @@
   
     <entry>
       <title type="html">Theories on Apple’s W1 pairing</title>
-      <link href="http://localhost:4000/theories-on-apples-w1-pairing" rel="alternate" type="text/html" title="Theories on Apple's W1 pairing" />
+      <link href="/theories-on-apples-w1-pairing" rel="alternate" type="text/html" title="Theories on Apple's W1 pairing" />
       <published>2016-12-15T18:44:33-05:00</published>
       <updated>2016-12-15T18:44:33-05:00</updated>
-      <id>http://localhost:4000/theories-on-apples-w1-pairing</id>
-      <content type="html" xml:base="http://localhost:4000/theories-on-apples-w1-pairing">&lt;p&gt;Since my last post, I’ve been putting a lot more thought into the pairing capabilities of Apple’s new W1 chip. A lot of folks are convinced the W1 itself is where the magic happens. I’m not saying that is impossible, but since Apple insists you must have the latest iOS/macOS and iCloud enabled for the seamless pairing to work, it should be obvious there is a lot more software involved than hardware.&lt;/p&gt;
+      <id>/theories-on-apples-w1-pairing</id>
+      <content type="html" xml:base="/theories-on-apples-w1-pairing">&lt;p&gt;Since my last post, I’ve been putting a lot more thought into the pairing capabilities of Apple’s new W1 chip. A lot of folks are convinced the W1 itself is where the magic happens. I’m not saying that is impossible, but since Apple insists you must have the latest iOS/macOS and iCloud enabled for the seamless pairing to work, it should be obvious there is a lot more software involved than hardware.&lt;/p&gt;
 
 &lt;p&gt;If the W1 isn’t responsible for this pairing magic, what is? Without having a pair of W1 headphones I can only speculate, but after a lot of Bluetooth research I have some theories. For starters, if the hardware were responsible, yet allows non-Apple hardware to be paired, it seems unusual to go out of the way to build special functionality into an otherwise full Bluetooth stack. In theory, if the hardware could pair with more than 1-2 devices (something Bluetooth can already do), what would stop a non-Apple device from being the 3rd or 4th device to pair?&lt;/p&gt;
 
@@ -133,11 +133,11 @@
   
     <entry>
       <title type="html">Apple’s W1 Wireless Chip (and why it may not be so “magical”)</title>
-      <link href="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
+      <link href="/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
       <published>2016-12-13T03:08:42-05:00</published>
       <updated>2016-12-13T03:08:42-05:00</updated>
-      <id>http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
-      <content type="html" xml:base="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
+      <id>/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
+      <content type="html" xml:base="/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
 
 &lt;p&gt;Much of the hype around the W1 was simultaneously avoiding the word “Bluetooth” while trying to sound like a magical fix to all of our woes with current Bluetooth headphones. Since the announcement, very little official information about the W1 has come to light. They did release the Beats Solo3 and Powerbeats 3 headphones which included the W1, giving folks a chance to test out the various claims.&lt;/p&gt;
 

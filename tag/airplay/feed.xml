@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/airplay/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/tag/airplay/feed.xml</id>
+  <link href="/tag/airplay/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/tag/airplay/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">E.T. Phone Home(Pod)</title>
-      <link href="http://localhost:4000/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
+      <link href="/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
       <published>2018-02-12T14:21:00-05:00</published>
       <updated>2018-02-12T14:21:00-05:00</updated>
-      <id>http://localhost:4000/e-t-phone-home-pod</id>
-      <content type="html" xml:base="http://localhost:4000/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
+      <id>/e-t-phone-home-pod</id>
+      <content type="html" xml:base="/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
 
 &lt;p&gt;Ultimately, I decided it was worth at least trying one out during Apple’s return window and see where I land. I picked one up from the local mall and plugged it in over my mantel. At first I was pretty unimpressed, the sound seemed good, but not amazing. I did quickly realize we were mostly playing music from the ’60s, like the Beatles, which may not have been recorded to really show this thing off. Next we queued up some modern pop songs with a mix of highs, mids and lows to really demo the range. This is definitely where the HomePod shines. It’s not like older music is bad on it, but I realized there is only so much you’ll be able to differentiate from older recordings.&lt;/p&gt;
 

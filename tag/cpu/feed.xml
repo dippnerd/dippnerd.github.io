@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/cpu/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/tag/cpu/feed.xml</id>
+  <link href="/tag/cpu/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/tag/cpu/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Layers of abstraction</title>
-      <link href="http://localhost:4000/layers-of-abstraction" rel="alternate" type="text/html" title="Layers of abstraction" />
+      <link href="/layers-of-abstraction" rel="alternate" type="text/html" title="Layers of abstraction" />
       <published>2016-12-23T16:27:58-05:00</published>
       <updated>2016-12-23T16:27:58-05:00</updated>
-      <id>http://localhost:4000/layers-of-abstraction</id>
-      <content type="html" xml:base="http://localhost:4000/layers-of-abstraction">&lt;p&gt;Computers have had an interesting evolution over the past few decades. Early computers were entirely custom, following very few real standards aside from the load/store model and the likes. Over time, computers began to divide into two fairly distinct designs, CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer), with respective pros and cons at the time.&lt;/p&gt;
+      <id>/layers-of-abstraction</id>
+      <content type="html" xml:base="/layers-of-abstraction">&lt;p&gt;Computers have had an interesting evolution over the past few decades. Early computers were entirely custom, following very few real standards aside from the load/store model and the likes. Over time, computers began to divide into two fairly distinct designs, CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer), with respective pros and cons at the time.&lt;/p&gt;
 
 &lt;p&gt;From a broad perspective, all computers are effectively “RISC” at their deepest core. Over the years, CISC (at least in relation to Intel and AMD’s x86/AMD64 Instruction Set Architecture, or ISA) came to represent the concept of effectively abstracting an underlying RISC design with a hardware layer that the chip allows to be accessed with a (typically) wider set of instructions that carry out more complex operations. To contrast this, RISC typically minimizes the amount of instructions and over simplifies things, relying on software to properly handle the complexities found in the CISC ISAs.&lt;/p&gt;
 

@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/class-1/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/tag/class-1/feed.xml</id>
+  <link href="/tag/class-1/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/tag/class-1/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Apple’s W1 Wireless Chip (and why it may not be so “magical”)</title>
-      <link href="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
+      <link href="/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical" rel="alternate" type="text/html" title="Apple's W1 Wireless Chip (and why it may not be so &quot;magical&quot;)" />
       <published>2016-12-13T03:08:42-05:00</published>
       <updated>2016-12-13T03:08:42-05:00</updated>
-      <id>http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
-      <content type="html" xml:base="http://localhost:4000/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
+      <id>/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical</id>
+      <content type="html" xml:base="/apples-w1-wireless-chip-and-why-it-may-not-be-so-magical">&lt;p&gt;Earlier this year, Apple announced they were dropping the headphone jack from the iPhone 7 to push for a truly wireless future. To further encourage this, they also announced a handful of new wireless headphones between their Beats branding as well as their own Apple branding. Both Beats and Apple (AirPods) headphones would utilize the new, Apple exclusive W1 wireless chip.&lt;/p&gt;
 
 &lt;p&gt;Much of the hype around the W1 was simultaneously avoiding the word “Bluetooth” while trying to sound like a magical fix to all of our woes with current Bluetooth headphones. Since the announcement, very little official information about the W1 has come to light. They did release the Beats Solo3 and Powerbeats 3 headphones which included the W1, giving folks a chance to test out the various claims.&lt;/p&gt;
 

@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/ios/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/tag/ios/feed.xml</id>
+  <link href="/tag/ios/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/tag/ios/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">WWDC 2018</title>
-      <link href="http://localhost:4000/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
+      <link href="/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
       <published>2018-06-05T13:49:00-04:00</published>
       <updated>2018-06-05T13:49:00-04:00</updated>
-      <id>http://localhost:4000/wwdc-2018</id>
-      <content type="html" xml:base="http://localhost:4000/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
+      <id>/wwdc-2018</id>
+      <content type="html" xml:base="/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
 
 &lt;p&gt;There was a bit too much to cover here, so I’ll try to tackle a few favorites (though I’m sure I’ll still forget some of those!). For me, the biggest surprise and my favorite announcement was the Siri Shorcuts. This is a combination of a few things, but a lot of it ties into the Shortcuts app that will be coming out for iOS 12. This appears to be the result of Apple’s acquisition of the Workflow app and team, as it strongly resembles it.&lt;/p&gt;
 

@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/author/aaron/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2019-03-27T16:10:22-04:00</updated>
-  <id>http://localhost:4000/author/aaron/feed.xml</id>
+  <link href="/author/aaron/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-03-28T10:37:30-04:00</updated>
+  <id>/author/aaron/feed.xml</id>
 
   
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>The professional publishing platform</subtitle>
+    <subtitle>things to nerd out about</subtitle>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Just Timers App Launched</title>
-      <link href="http://localhost:4000/just-timers-app" rel="alternate" type="text/html" title="Just Timers App Launched" />
+      <link href="/just-timers-app" rel="alternate" type="text/html" title="Just Timers App Launched" />
       <published>2019-03-22T18:31:01-04:00</published>
       <updated>2019-03-22T18:31:01-04:00</updated>
-      <id>http://localhost:4000/just-timers-app</id>
-      <content type="html" xml:base="http://localhost:4000/just-timers-app">&lt;p&gt;Today I’ve launched my first iOS app, &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt;. Since iOS can natively only handle a single timer at a time, I’ve frequently found myself frustrated when I need more than one. While the App Store does contain some apps that can create multiple timers, they’re all missing one crucial feature:  Siri control.&lt;/p&gt;
+      <id>/just-timers-app</id>
+      <content type="html" xml:base="/just-timers-app">&lt;p&gt;Today I’ve launched my first iOS app, &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt;. Since iOS can natively only handle a single timer at a time, I’ve frequently found myself frustrated when I need more than one. While the App Store does contain some apps that can create multiple timers, they’re all missing one crucial feature:  Siri control.&lt;/p&gt;
 
 &lt;p&gt;That’s where Just Timers comes in, with the ability to use the iOS 12 feature “Siri Shortcuts” to assign your own voice phrases to timer actions like pause, resume and restart. While this is intended as the primary method of interacting with your timers, I’ve also extended the abilities into the iOS app &lt;a href=&quot;https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&quot;&gt;Shortcuts&lt;/a&gt;, which provides automation features for iOS. There is an extensive write up available on the &lt;a href=&quot;https://justtimers.app/help/shortcuts/&quot;&gt;Just Timers website&lt;/a&gt; which goes into detail on what commands are supported by the API, but long story short you can do everything Siri Shortcuts can and more. With a downloadable Shortcut available on that page, you can even create new timers completely hands free!&lt;/p&gt;
 
@@ -69,11 +69,11 @@
   
     <entry>
       <title type="html">Belkin Thunderbolt 2 Express HD Dock Review</title>
-      <link href="http://localhost:4000/belkin-thunderbolt-2-express-hd-dock" rel="alternate" type="text/html" title="Belkin Thunderbolt 2 Express HD Dock Review" />
+      <link href="/belkin-thunderbolt-2-express-hd-dock" rel="alternate" type="text/html" title="Belkin Thunderbolt 2 Express HD Dock Review" />
       <published>2018-08-31T18:49:03-04:00</published>
       <updated>2018-08-31T18:49:03-04:00</updated>
-      <id>http://localhost:4000/belkin-thunderbolt-2-express-hd-dock</id>
-      <content type="html" xml:base="http://localhost:4000/belkin-thunderbolt-2-express-hd-dock">&lt;p&gt;This is very late to the game, but since there has been a slight resurgence in demand for 2015 Macbook Pro’s of late, I figured it might not hurt to give a short review on this unit. The Belkin Thunderbolt 2 Express HD Dock attempts to be a lot crammed into a relatively small package. At the time of me writing this, it’s been out for a few years and is priced pretty much on par with the other options like it. The nice thing about buying it now, however, is you can pick them up used for a good bit cheaper.&lt;/p&gt;
+      <id>/belkin-thunderbolt-2-express-hd-dock</id>
+      <content type="html" xml:base="/belkin-thunderbolt-2-express-hd-dock">&lt;p&gt;This is very late to the game, but since there has been a slight resurgence in demand for 2015 Macbook Pro’s of late, I figured it might not hurt to give a short review on this unit. The Belkin Thunderbolt 2 Express HD Dock attempts to be a lot crammed into a relatively small package. At the time of me writing this, it’s been out for a few years and is priced pretty much on par with the other options like it. The nice thing about buying it now, however, is you can pick them up used for a good bit cheaper.&lt;/p&gt;
 
 &lt;p&gt;The main appeal of this device is it can connect 8 different devices over one Thunderbolt 2 cable, with the option to further daisy-chain additional Thunderbolt devices. It comes with three USB 3 ports, two Thunderbolt 2 ports, HDMI, Ethernet and two audio out ports (one includes mic support). For me, the main appeal was a way to consolidate the mess of wires I had plugged into my laptop for my particular needs. Prior to this dock, I had: an Ethernet adapter plugged in over Thunderbolt, a wired keyboard and trackpad (the trackpad wasn’t required to stay plugged in, it’s just a preference of mine), wired external speakers, HDMI out and of course power. Thanks to this dock, I am now down to just a single Thunderbolt 2 cable and a power cable. I’d certainly prefer this to be one wire, but it’s vastly superior to how I was doing it.&lt;/p&gt;
 
@@ -113,11 +113,11 @@
   
     <entry>
       <title type="html">Siri Shortcuts</title>
-      <link href="http://localhost:4000/siri-shortcuts" rel="alternate" type="text/html" title="Siri Shortcuts" />
+      <link href="/siri-shortcuts" rel="alternate" type="text/html" title="Siri Shortcuts" />
       <published>2018-06-08T17:10:24-04:00</published>
       <updated>2018-06-08T17:10:24-04:00</updated>
-      <id>http://localhost:4000/siri-shortcuts</id>
-      <content type="html" xml:base="http://localhost:4000/siri-shortcuts">&lt;p&gt;At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.&lt;/p&gt;
+      <id>/siri-shortcuts</id>
+      <content type="html" xml:base="/siri-shortcuts">&lt;p&gt;At WWDC this week, Apple announced a huge milestone for Siri: Siri Shortcuts. Back when Apple acquired the company behind Workflow, a powerful automation tool for iOS, there was much speculation on just what would happen. Many feared it would disappear, never to be seen again, but over time we still saw bug fix updates come to the Workflow app. At WWDC they showed off Siri Shortcuts, and an app called Shorcuts that will coincide with this. It is very clear that this Shortcuts app is the result of the Workflow acquisition. The layout is almost identical, but the key difference this time around is that it is much more deeply integrated with iOS.&lt;/p&gt;
 
 &lt;p&gt;The Shortcuts app itself would be pretty handy in general, you’ll be able to build Automator-style “Shortcuts” that can trigger actions throughout the OS. Apple showed that third-parties will also be able to integrate with this, so the benefits begin to snowball into something very interesting. Apple didn’t stop there, however. Combine all of this with the “Siri” side of things:  Shortcuts will be able to trigger using custom voice phrases that the user can assign for Siri. Telling Siri “laundry time” could kick off a custom Shortcut that the user created, for example. The icing on the cake with all of this is that, beyond just voice, Siri will recognize patterns in usage for these Shortcuts and offer recommendations for them throughout the OS.&lt;/p&gt;
 
@@ -171,11 +171,11 @@
   
     <entry>
       <title type="html">WWDC 2018</title>
-      <link href="http://localhost:4000/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
+      <link href="/wwdc-2018" rel="alternate" type="text/html" title="WWDC 2018" />
       <published>2018-06-05T13:49:00-04:00</published>
       <updated>2018-06-05T13:49:00-04:00</updated>
-      <id>http://localhost:4000/wwdc-2018</id>
-      <content type="html" xml:base="http://localhost:4000/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
+      <id>/wwdc-2018</id>
+      <content type="html" xml:base="/wwdc-2018">&lt;p&gt;Apple’s World Wide Developer Conference (WWDC) for 2018 is underway, and to kick things off they had their announcements on Monday, June 4th. While rumors leading up to this event were pretty sparse, the overall tone was that this would be a bug fix year more than a feature-heavy one. Right off the bat they made it clear there would be no hardware announcements, this was all about software. They dove right in to explaining that they were doing a lot to improve performance and stability (Apple’s way of saying “bug fixes”) and even pointed out that these gains alone would make for a great year (roll credits, show is over), but they didn’t stop there. Over the next two hours they went on to explain a plethora of features that were widely unexpected for this year.&lt;/p&gt;
 
 &lt;p&gt;There was a bit too much to cover here, so I’ll try to tackle a few favorites (though I’m sure I’ll still forget some of those!). For me, the biggest surprise and my favorite announcement was the Siri Shorcuts. This is a combination of a few things, but a lot of it ties into the Shortcuts app that will be coming out for iOS 12. This appears to be the result of Apple’s acquisition of the Workflow app and team, as it strongly resembles it.&lt;/p&gt;
 
@@ -239,11 +239,11 @@
   
     <entry>
       <title type="html">AirPort Express as AirPlay Speakers</title>
-      <link href="http://localhost:4000/airplay-speakers" rel="alternate" type="text/html" title="AirPort Express as AirPlay Speakers" />
+      <link href="/airplay-speakers" rel="alternate" type="text/html" title="AirPort Express as AirPlay Speakers" />
       <published>2018-04-19T19:51:42-04:00</published>
       <updated>2018-04-19T19:51:42-04:00</updated>
-      <id>http://localhost:4000/airplay-speakers</id>
-      <content type="html" xml:base="http://localhost:4000/airplay-speakers">&lt;p&gt;A few weeks back it was discovered in an iOS beta that &lt;a href=&quot;https://9to5mac.com/2018/04/04/airplay-2-airport-express/&quot;&gt;AirPort Express devices were showing up as speakers&lt;/a&gt; in the Home app, implying Apple might be updating these devices to support AirPlay 2. This disappeared in the latest beta, but it has since sparked some interest in using AirPort Expresses for AirPlay speakers, so I thought I’d take some time to write about how I use these devices.&lt;/p&gt;
+      <id>/airplay-speakers</id>
+      <content type="html" xml:base="/airplay-speakers">&lt;p&gt;A few weeks back it was discovered in an iOS beta that &lt;a href=&quot;https://9to5mac.com/2018/04/04/airplay-2-airport-express/&quot;&gt;AirPort Express devices were showing up as speakers&lt;/a&gt; in the Home app, implying Apple might be updating these devices to support AirPlay 2. This disappeared in the latest beta, but it has since sparked some interest in using AirPort Expresses for AirPlay speakers, so I thought I’d take some time to write about how I use these devices.&lt;/p&gt;
 
 &lt;p&gt;Apple has offered some method of audio streaming to AirPort Expresses for years now, updating the AirPlay protocol along the way. The concept is great, you have a puck that both acts as a wireless router (or extender) &lt;em&gt;and&lt;/em&gt; can stream music over a 3.5mm audio jack. Because it uses this universal standard, you can plug any of your own speakers into it and “magically” have wireless audio anywhere in your house.&lt;/p&gt;
 
@@ -284,12 +284,72 @@
     </entry>
   
     <entry>
+      <title type="html">AirPods 2: Electric Boogaloo</title>
+      <link href="/airpods-2-electric-boogaloo" rel="alternate" type="text/html" title="AirPods 2&amp;#58; Electric Boogaloo" />
+      <published>2018-03-28T19:07:36-04:00</published>
+      <updated>2018-03-28T19:07:36-04:00</updated>
+      <id>/airpods-2-electric-boogaloo</id>
+      <content type="html" xml:base="/airpods-2-electric-boogaloo">&lt;p&gt;Last week Apple started surprising everyone with a product refresh every day. Starting on Monday, Apple refreshed the iPad Air and Mini, Tuesday saw a refresh of the iMac lineup and finally Wednesday saw the refresh of AirPods. While every product was a bit surprising to see, for most people the AirPods refresh was the most unexpected. There had been rumors of a refresh coming, but they were always pretty vague on details and timing. After much waiting, finally Apple revealed AirPods 2: Electric Boogaloo.&lt;/p&gt;
+
+&lt;p&gt;While some expected a complete redesign (or at least a dark color option), AirPods 2 are actually a fairly minor upgrade over the first generation. The biggest change is the added support for “Hey Siri” via the AirPods. Previously, you had to rely on double-tapping one AirPod (assuming you assigned Siri to that specific AirPod too) to summon the assistant. Now, AirPods 2 lets you simply utter “Hey Siri” into the air and the assistant will chime in. You can still assign a double-tap gesture to each AirPod, but no need for Siri for that anymore, giving room for more control.&lt;/p&gt;
+
+&lt;p&gt;While “Hey Siri” is the biggest change, that doesn’t mean the other changes are any less welcomed. The first generation used a chip Apple called the W1, their first wireless chip, to provide some of the cutting-edge features the first generation boasted. AirPods 2 now contain what Apple calls the H1 headphone chip, though in reality it is likely more of a marketing rebranding than a completely new chip. The H1 boasts up to 2x faster switching between active devices, 1.5x faster connection time for phone calls, up to 30 percent lower gaming latency, longer talk time, and of course the “Hey Siri” functionality.&lt;/p&gt;
+
+&lt;p&gt;One of my biggest complaints about the first generation AirPods was that, while it was nice to only have to pair them to one device and have them show up across the rest of my devices, often you would hit massive waiting periods while they switch from one device to another. Sometimes it was quick, but other times it would take longer than if I had just re-paired them manually, which could get frustrating. Some of this is simply the nature of Bluetooth, combined with the fact that some devices may be using an older Bluetooth chip or software. AirPods 2 do indeed fulfill some of their improved switching claims, but I’ve noticed this primarily relates to newer devices using Bluetooth 5.0, such as the iPhone XS and Apple Watch Series 4. When switching between the iPhone XS and my 2018 iPad (Bluetooth 4.2) the delays are mostly the same as the previous generation.&lt;/p&gt;
+
+&lt;p&gt;Regarding the 1.5x faster connection time for phone calls, I can’t speak to this specifically for phone calls yet, but I have noticed that the connected sound seems to happen much sooner than on previous generations. In the past, you would pop them out of their case and into your ears and sometimes it would be quick, other times it might take a few seconds before you hear the tone. For the most part with AirPods 2, by the time I have the first one in my ear I already hear the sound before I get a chance to put the second in. If this is any indicator of what to expect when taking a phone call, I think it will be a huge improvement.&lt;/p&gt;
+
+&lt;p&gt;Since I don’t play a lot of games, I can’t give real good feedback on the lower latency, but it does seem lower in general when interacting with user interfaces that provide sound feedback. The first generation weren’t terrible at this, but it was generally just noticeable enough to be annoying, so this hopefully fixes that.&lt;/p&gt;
+
+&lt;p&gt;One of the requirements for the new AirPods was updating to the latest OS versions. I’m not positive just what changed with that, but since watchOS 5.2 was delayed a few days I did wait until then to give a proper test between the iPhone XS and Apple Watch Series 4. As mentioned above, it does seem like when switching AirPods between two Bluetooth 5.0 devices have nearly instant switching, which is a great improvement.&lt;/p&gt;
+
+&lt;p&gt;AirPods have always been able to pair with both the phone and watch simultaneously, but generally it was shaky as to just which device would pick up tap gestures or Siri commands, which was always frustrating. It seems like the new “Hey Siri” on AirPods 2 prioritizes the phone, so that’s much appreciated (as the watch can’t do all of the same tasks as the phone). We’ll see over the longterm if this still holds up, but so far so good.&lt;/p&gt;
+
+&lt;p&gt;Outside of the AirPods themselves, the case also got a minor update that adds support for Qi wireless charging. I didn’t opt for this case since I have no problems charging mine every day, but it does seem useful for folks looking to just set their AirPods down somewhere to let them charge.&lt;/p&gt;
+
+&lt;p&gt;So far my only real “complaint” would be on the “Hey Siri” side of things. When you use the trigger phrase directly on the phone, you get a chime to let you know it heard you. With the AirPods there is no longer the same chime, Siri simply responds to your command, but this isn’t always immediate if she needs to fetch data from the web or something. This delay can cause you to think Siri didn’t hear you and cause you to try again, but I’ve been able to train myself to be more patient.&lt;/p&gt;
+
+&lt;p&gt;Another interesting detail is that the phone appears to wake the screen whenever you invoke Siri, regardless of whether you cover up the mics so only AirPods would be hearing you. This seems unnecessary if the phone is on your pocket, but they may have ways to detect that too. It’s a minor detail, but one that I found a bit unexpected given the context that Siri should only display something if there is an expectation of visual feedback over audio-only.&lt;/p&gt;
+
+&lt;p&gt;Overall I’m very pleased with this update of the AirPods. For the most part they’ve fixed all of my complaints with the last generation. The delays that still exist seem to be more at the fault of older devices, so that will likely improve as everything moves to Bluetooth 5.0+ anyway. “Hey Siri” is a hugely welcomed feature for me, as it has been the missing piece to the whole Siri ecosystem in my opinion.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="airpods" />
+      
+        <category term="siri" />
+      
+
+      
+        <summary type="html">Last week Apple started surprising everyone with a product refresh every day. Starting on Monday, Apple refreshed the iPad Air and Mini, Tuesday saw a refresh of the iMac lineup and finally Wednesday saw the refresh of AirPods. While every product was a bit surprising to see, for most people the AirPods refresh was the most unexpected. There had been rumors of a refresh coming, but they were always pretty vague on details and timing. After much waiting, finally Apple revealed AirPods 2: Electric Boogaloo.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Why HomePod isn’t ready for my home</title>
-      <link href="http://localhost:4000/why-i-returned-my-homepod" rel="alternate" type="text/html" title="Why HomePod isn't ready for my home" />
+      <link href="/why-i-returned-my-homepod" rel="alternate" type="text/html" title="Why HomePod isn't ready for my home" />
       <published>2018-02-20T17:42:00-05:00</published>
       <updated>2018-02-20T17:42:00-05:00</updated>
-      <id>http://localhost:4000/why-i-returned-my-homepod</id>
-      <content type="html" xml:base="http://localhost:4000/why-i-returned-my-homepod">&lt;p&gt;I purchased the HomePod nearly two weeks ago, and today it went back to Apple. I still stand by a lot of what I said in my &lt;a href=&quot;/2018/02/12/e-t-phone-home-pod/&quot;&gt;previous article&lt;/a&gt;. As a speaker, HomePod is fantastic device not just for sound, but for ease of use too. It’s going to be hard to find something that has such omni-directional, quality sound. The size of the HomePod is particularly impressive for what all it accomplishes. Best of all, the complete ease of use (especially compared to the traditional amp and speaker setup that may scare some users away) makes it as painless as possible.&lt;/p&gt;
+      <id>/why-i-returned-my-homepod</id>
+      <content type="html" xml:base="/why-i-returned-my-homepod">&lt;p&gt;I purchased the HomePod nearly two weeks ago, and today it went back to Apple. I still stand by a lot of what I said in my &lt;a href=&quot;/2018/02/12/e-t-phone-home-pod/&quot;&gt;previous article&lt;/a&gt;. As a speaker, HomePod is fantastic device not just for sound, but for ease of use too. It’s going to be hard to find something that has such omni-directional, quality sound. The size of the HomePod is particularly impressive for what all it accomplishes. Best of all, the complete ease of use (especially compared to the traditional amp and speaker setup that may scare some users away) makes it as painless as possible.&lt;/p&gt;
 
 &lt;p&gt;All of that said, while HomePod is a great speaker, it just isn’t ready for my home yet. While Apple by no means lied about what functionality would come with it out of the box, some of the promised features like AirPlay 2 and Stereo Pairing (both announced at WWDC in June) are still missing. On top of that, there was a lot of mystery around what Siri would or wouldn’t do at launch. It wasn’t until I started reading reviews and eventually tried it out myself that I got to see how broken it is compared to Siri on virtually every other device.&lt;/p&gt;
 
@@ -329,11 +389,11 @@
   
     <entry>
       <title type="html">E.T. Phone Home(Pod)</title>
-      <link href="http://localhost:4000/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
+      <link href="/e-t-phone-home-pod" rel="alternate" type="text/html" title="E.T. Phone Home(Pod)" />
       <published>2018-02-12T14:21:00-05:00</published>
       <updated>2018-02-12T14:21:00-05:00</updated>
-      <id>http://localhost:4000/e-t-phone-home-pod</id>
-      <content type="html" xml:base="http://localhost:4000/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
+      <id>/e-t-phone-home-pod</id>
+      <content type="html" xml:base="/e-t-phone-home-pod">&lt;p&gt;When Apple announced the HomePod and it’s price of $349, I was a little put off, hoping for something cheaper that would allow me to plug into my existing speakers. My interest was more on Siri than the speaker/music aspect of it, but I understand their positioning in such a space, they need to be premium. Pre-orders came and went without me, I decided I wanted to hear some reviews from actual people instead of media outlets before deciding. As expected, early reviews as folks unboxed their units were very positive for the sound, but a bit underwhelmed by Siri. The sound has been the big seller for this device, so of course I would hope it would be good, but as more and more folks compared it to fancier speakers, the more interested I became.&lt;/p&gt;
 
 &lt;p&gt;Ultimately, I decided it was worth at least trying one out during Apple’s return window and see where I land. I picked one up from the local mall and plugged it in over my mantel. At first I was pretty unimpressed, the sound seemed good, but not amazing. I did quickly realize we were mostly playing music from the ’60s, like the Beatles, which may not have been recorded to really show this thing off. Next we queued up some modern pop songs with a mix of highs, mids and lows to really demo the range. This is definitely where the HomePod shines. It’s not like older music is bad on it, but I realized there is only so much you’ll be able to differentiate from older recordings.&lt;/p&gt;
 
@@ -399,11 +459,11 @@ One of the most impressive parts of the Siri experience on HomePod is how well i
   
     <entry>
       <title type="html">Can Alexa’s Skills Pay the Bills?</title>
-      <link href="http://localhost:4000/can-alexas-skills-pay-the-bills" rel="alternate" type="text/html" title="Can Alexa’s Skills Pay the Bills?" />
+      <link href="/can-alexas-skills-pay-the-bills" rel="alternate" type="text/html" title="Can Alexa’s Skills Pay the Bills?" />
       <published>2018-02-08T16:19:00-05:00</published>
       <updated>2018-02-08T16:19:00-05:00</updated>
-      <id>http://localhost:4000/can-alexas-skills-pay-the-bills</id>
-      <content type="html" xml:base="http://localhost:4000/can-alexas-skills-pay-the-bills">&lt;p&gt;Ever since Amazon released the Amazon Echo, there has been a growing market for “smart speakers” along with unique features for each. Amazon in particular has grown a very large set of “skills” by allowing anyone to interface with it in some way. While these skills offer some additional functionality, they don’t offer a lot of tangible value for most users. &lt;a href=&quot;https://www.geekwire.com/2016/people-using-amazon-echo-new-study-reveals-surprising-patterns/&quot;&gt;Recent statistics suggest&lt;/a&gt; the majority of users are only using these assistants to set timers, play music and read the news.&lt;/p&gt;
+      <id>/can-alexas-skills-pay-the-bills</id>
+      <content type="html" xml:base="/can-alexas-skills-pay-the-bills">&lt;p&gt;Ever since Amazon released the Amazon Echo, there has been a growing market for “smart speakers” along with unique features for each. Amazon in particular has grown a very large set of “skills” by allowing anyone to interface with it in some way. While these skills offer some additional functionality, they don’t offer a lot of tangible value for most users. &lt;a href=&quot;https://www.geekwire.com/2016/people-using-amazon-echo-new-study-reveals-surprising-patterns/&quot;&gt;Recent statistics suggest&lt;/a&gt; the majority of users are only using these assistants to set timers, play music and read the news.&lt;/p&gt;
 
 &lt;p&gt;When it comes to setting timers, playing music and reading the news, this is something most assistants already can do. Some other items on that list included smart home control and adding items to shopping lists, and while Amazon hopes to make money off of the shopping list side of things, this functionality may just as easily be a reminders list instead of actually buying through Amazon.&lt;/p&gt;
 
@@ -439,11 +499,11 @@ One of the most impressive parts of the Siri experience on HomePod is how well i
   
     <entry>
       <title type="html">A Tale of Two (or more) Assistants</title>
-      <link href="http://localhost:4000/untitled" rel="alternate" type="text/html" title="A Tale of Two (or more) Assistants" />
+      <link href="/untitled" rel="alternate" type="text/html" title="A Tale of Two (or more) Assistants" />
       <published>2017-11-29T18:14:00-05:00</published>
       <updated>2017-11-29T18:14:00-05:00</updated>
-      <id>http://localhost:4000/untitled</id>
-      <content type="html" xml:base="http://localhost:4000/untitled">&lt;p&gt;Reading the comments on just about any post about voice assistants these days will quickly reveal a variety of opinions on each. A lot of people are quick to point to the Google Home or Amazon Echo devices and say how far ahead their assistant devices are compared to something like Apple’s Siri. This is a slightly unfair comparison, since Google Home and Amazon’s Echo (Alexa) assistants are using purpose-built hardware with an array of mics and always-plugged-in power. Line-powered mics will immediately give any assistant a major advantage in that it can be listening much better than on any battery-powered device like a phone or watch. Of course, this really only affects how the device hears a user and interprets their voice. That is only a small (but very important) part of the overall assistant experience.&lt;/p&gt;
+      <id>/untitled</id>
+      <content type="html" xml:base="/untitled">&lt;p&gt;Reading the comments on just about any post about voice assistants these days will quickly reveal a variety of opinions on each. A lot of people are quick to point to the Google Home or Amazon Echo devices and say how far ahead their assistant devices are compared to something like Apple’s Siri. This is a slightly unfair comparison, since Google Home and Amazon’s Echo (Alexa) assistants are using purpose-built hardware with an array of mics and always-plugged-in power. Line-powered mics will immediately give any assistant a major advantage in that it can be listening much better than on any battery-powered device like a phone or watch. Of course, this really only affects how the device hears a user and interprets their voice. That is only a small (but very important) part of the overall assistant experience.&lt;/p&gt;
 
 &lt;p&gt;With Apple’s HomePod soon entering the market, we should have at least a more level playing field in terms of mic hardware to compare against. I expect we’ll see a reduction in the misinterpretation of commands with this, but as many are quick to point out, Siri still falls short of other assistants in terms of overall functionality. Essentially, the story goes that Google Home is way further ahead than the rest (which is not entirely false, but the gap may be perceived bigger than it really is), with Alexa and Siri being matched in many cases. This unfortunately is a bit of an over simplification, as there are plenty of things Alexa cannot do given the platform is limited to voice (no screen). People are quick to point out the vast array of third-party support Alexa has for “skills” and claim this is a huge advantage over Siri, but using any of these skills it’s pretty easy to see most of them aren’t very practical and serve mostly as a gimmick to demo Alexa. While it is a leg up over Siri, their API is very limited and won’t be revolutionizing the voice assistant industry any time soon (largely due to the complex nature of triggering these skills, lacking a good natural language parser).&lt;/p&gt;
 
@@ -475,44 +535,6 @@ One of the most impressive parts of the Siri experience on HomePod is how well i
 
       
         <summary type="html">Reading the comments on just about any post about voice assistants these days will quickly reveal a variety of opinions on each. A lot of people are quick to point to the Google Home or Amazon Echo devices and say how far ahead their assistant devices are compared to something like Apple’s Siri. This is a slightly unfair comparison, since Google Home and Amazon’s Echo (Alexa) assistants are using purpose-built hardware with an array of mics and always-plugged-in power. Line-powered mics will immediately give any assistant a major advantage in that it can be listening much better than on any battery-powered device like a phone or watch. Of course, this really only affects how the device hears a user and interprets their voice. That is only a small (but very important) part of the overall assistant experience.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">In Defense of Voice Assistants</title>
-      <link href="http://localhost:4000/in-defense-of-voice-assistants" rel="alternate" type="text/html" title="In Defense of Voice Assistants" />
-      <published>2017-10-07T16:37:00-04:00</published>
-      <updated>2017-10-07T16:37:00-04:00</updated>
-      <id>http://localhost:4000/in-defense-of-voice-assistants</id>
-      <content type="html" xml:base="http://localhost:4000/in-defense-of-voice-assistants">&lt;p&gt;From time to time I hear a lot of complaints from people about voice assistants. Whether it be that they just don’t find them useful or they never work right, every case tends to follow some common themes. Now, I don’t mean to pull a Steve Jobs with the old “you’re holding it wrong” type thing, but I would be willing to bet a lot of users simply aren’t using their assistants correctly in some way.&lt;/p&gt;
-
-&lt;p&gt;I’ve been using Siri since the iPhone 4S, and not just as a gimmick but as a genuinely useful extension of my technology experience. When the 4S came out in 2011, Apple also added a new Reminders app to iOS, which happened to coincide with the newly-added Siri, which could set reminders. Before I upgraded to the 4S, I was loving the Reminders app already. It was a super handy way of ensuring I don’t forget things, or having geo-fences trigger when I enter or leave somewhere. The addition of Siri made this already-useful feature immensely more useful, as suddenly I didn’t need to unlock my phone, open Reminders, type it out, adjust the date/time/location, etc. I could just dictate the entire thing to Siri.&lt;/p&gt;
-
-&lt;p&gt;Assistants get a lot of flack, but overall if you just learn the interface even a little, it can go a long way. I certainly would love my assistant to do more, but it still makes my life easier in a lot of ways. The bonus is, the more you use it, the more it improves both in language parsing and understanding you. Perhaps not directly, but this data can at least improve the assistant over time by the company knowing how users are interacting and what results they are getting.&lt;/p&gt;
-
-&lt;p&gt;Admittedly, while assistants have been useful to me, I’ve been a nerd about keeping up with each new function they’ve added to Siri. Part of the problem with many of these assistants is that it’s not always obvious what they can and can’t do. Much like the frustrations users experience with poor user interface and experience in traditional software GUIs, the same could be said of assistants. Users expect one thing but may get a different result, or nothing at all. This is where truly intelligent assistants will greatly improve things, but we’re not there yet.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Aaron Dippner</name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html">From time to time I hear a lot of complaints from people about voice assistants. Whether it be that they just don’t find them useful or they never work right, every case tends to follow some common themes. Now, I don’t mean to pull a Steve Jobs with the old “you’re holding it wrong” type thing, but I would be willing to bet a lot of users simply aren’t using their assistants correctly in some way.</summary>
       
 
       
