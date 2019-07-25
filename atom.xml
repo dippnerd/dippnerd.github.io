@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>SwiftUI - Using Timer for UI refreshes</title>
+        
+          <description>&lt;p&gt;At WWDC this year, one of Apple’s biggest announcements wasn’t a particular feature of the new OSes, but rather a new way to write UIs for your apps using Swift. This new framework, named SwiftUI, uses a declaritive syntax to easily define your UI in far fewer lines of code than before. Along with SwiftUI, Apple announced another framework, Combine, which helps with handling asynchronous events. This post won’t dive into the fundamentals of either of these, there are plenty of others out there already. Instead, this post is intended to work through some challenges I ran into when trying to upgrade my app, &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt;, to use SwiftUI.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 25 Jul 2019 14:16:26 -0400</pubDate>
+        <link>
+        /swiftui-timer-ui-refresh</link>
+        <guid isPermaLink="true">/swiftui-timer-ui-refresh</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>AirPods 2&amp;#58; Electric Boogaloo</title>
         
           <description>&lt;p&gt;Last week Apple started surprising everyone with a product refresh every day. Starting on Monday, Apple refreshed the iPad Air and Mini, Tuesday saw a refresh of the iMac lineup and finally Wednesday saw the refresh of AirPods. While every product was a bit surprising to see, for most people the AirPods refresh was the most unexpected. There had been rumors of a refresh coming, but they were always pretty vague on details and timing. After much waiting, finally Apple revealed AirPods 2: Electric Boogaloo.&lt;/p&gt;
