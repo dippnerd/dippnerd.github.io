@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/homepad/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2019-08-20T13:14:35-04:00</updated>
+  <id>/tag/homepad/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">dippnerd | </title>
+  
+
+  
+    <subtitle>things to nerd out about</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">iPod, HomePod, iPad, HomePad?</title>
+      <link href="/homepad" rel="alternate" type="text/html" title="iPod, HomePod, iPad, HomePad?" />
+      <published>2019-08-20T13:12:20-04:00</published>
+      <updated>2019-08-20T13:12:20-04:00</updated>
+      <id>/homepad</id>
+      <content type="html" xml:base="/homepad">&lt;p&gt;There has been a growing market for voice assistant devices in the past few years. These range from small, $30 circular devices that can plug into other speakers, to fully-integrated speakers, evolving into ones that include screens even.&lt;/p&gt;
+
+&lt;p&gt;Some recent examples include Amazon’s Echo Show, a device that includes both the Alexa assistant as well as screen to display song lyrics, recipes, etc. Google’s take on this is the Google Home Hub, similar build with a focus on voice commands that give visual results.&lt;/p&gt;
+
+&lt;p&gt;Apple’s only foray into this space of stand-alone, dedicated voice assistant hardware has been the HomePod. It’s often touted as the “Siri Speaker” even though Apple insists it’s more of a music speaker that happens to have Siri for an interface. It comes with plenty of useful features outside of music though, ranging from multiple timers to being able to get calendar info, weather and other things Siri does on the phone already.&lt;/p&gt;
+
+&lt;p&gt;Apple is notoriously silent about future products, but people often speculate whether they will try to compete with the likes of Echo Show or Google Home Hub by making a similar assistant-focused device with a screen. The common argument against this is that we already have such a device, the iPad. It has Siri, can do many of the same features as HomePod already, and serves as a multi-purpose device instead of being stuck in one room with very narrow features.&lt;/p&gt;
+
+&lt;p&gt;While I agree that the iPad does fill many of these gaps already, there are many reasons a “HomePad” device could be appealing (for the right price of course). For starters, Siri just doesn’t work the same on the iPad as the voice assistants on these other screen-focused devices. Siri can present some basic info hands-free, but often requires the user to authenticate to do more. This is good for things like reading messages and private content like notes, but for just bringing up a basic recipe or showing song lyrics, unlocking shouldn’t be needed. The interfaces for those functions also tend to require a few taps to get where you’re going as well, so Siri would need a revamped UI to better compete in this space.&lt;/p&gt;
+
+&lt;p&gt;With a dedicated “HomePad”, it could remove the “i” focus of the iPad, being individual-based instead of multi-user. Instead, this device could focus on things that don’t necessary need security authentication, but allow restrictions for the user in terms of what content can be accessed. Similar to how HomePod has “personal requests” which allows the user to access calendar events and such, this feature could exist on “HomePad” as well, and have the ability to disable it just the same.&lt;/p&gt;
+
+&lt;p&gt;The main goal would be to have an assistant in places where your hands are often dirty or otherwise inaccessible, particularly the kitchen. Being able to play videos, music (with lyrics), show recipes and other basic web site results would make this a lot more useful than Siri on the iPad currently is. On the flip side, instead of making dedicated hardware, opening the iPad to do all of these things could be an easy gateway into homes that have iPads everywhere already. Sure, they aren’t buying new hardware, but they also aren’t buying the competitor’s assistant just to get the same job done.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="homepod" />
+      
+        <category term="homepad" />
+      
+        <category term="ipad" />
+      
+        <category term="siri" />
+      
+        <category term="google" />
+      
+        <category term="amazon" />
+      
+
+      
+        <summary type="html">There has been a growing market for voice assistant devices in the past few years. These range from small, $30 circular devices that can plug into other speakers, to fully-integrated speakers, evolving into ones that include screens even.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

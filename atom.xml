@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>iPod, HomePod, iPad, HomePad?</title>
+        
+          <description>&lt;p&gt;There has been a growing market for voice assistant devices in the past few years. These range from small, $30 circular devices that can plug into other speakers, to fully-integrated speakers, evolving into ones that include screens even.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Aug 2019 13:12:20 -0400</pubDate>
+        <link>
+        /homepad</link>
+        <guid isPermaLink="true">/homepad</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>SwiftUI - Using Timer for UI refreshes</title>
         
           <description>&lt;p&gt;At WWDC this year, one of Apple’s biggest announcements wasn’t a particular feature of the new OSes, but rather a new way to write UIs for your apps using Swift. This new framework, named SwiftUI, uses a declaritive syntax to easily define your UI in far fewer lines of code than before. Along with SwiftUI, Apple announced another framework, Combine, which helps with handling asynchronous events. This post won’t dive into the fundamentals of either of these, there are plenty of others out there already. Instead, this post is intended to work through some challenges I ran into when trying to upgrade my app, &lt;a href=&quot;https://itunes.apple.com/us/app/just-timers/id1453573845?ls=1&amp;amp;mt=8&quot;&gt;Just Timers&lt;/a&gt;, to use SwiftUI.&lt;/p&gt;
