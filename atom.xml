@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Catalyst - the future of Mac apps?</title>
+        
+          <description>&lt;p&gt;Back in June 2019 at WWDC Apple announced Mac Catalyst, a new way to build apps that share one common codebase that can run across iPadOS, iOS and macOS. Very shortly after this announcement, they also announced the new SwiftUI, an easy way to create apps for Mac, iPad, iPhone, etc. Immediately people were joking about how Apple announced and promptly killed Catalyst in the same presentation, but I don’t think this is quite the case.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 Feb 2020 20:27:06 -0500</pubDate>
+        <link>
+        /mac-catalyst</link>
+        <guid isPermaLink="true">/mac-catalyst</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>iPod, HomePod, iPad, HomePad?</title>
         
           <description>&lt;p&gt;There has been a growing market for voice assistant devices in the past few years. These range from small, $30 circular devices that can plug into other speakers, to fully-integrated speakers, evolving into ones that include screens even.&lt;/p&gt;

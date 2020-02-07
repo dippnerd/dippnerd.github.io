@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/swiftui/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2019-08-20T13:14:35-04:00</updated>
+  <updated>2020-02-07T12:43:17-05:00</updated>
   <id>/tag/swiftui/feed.xml</id>
 
   
@@ -30,6 +30,66 @@
   
   
 
+  
+    <entry>
+      <title type="html">Catalyst - the future of Mac apps?</title>
+      <link href="/mac-catalyst" rel="alternate" type="text/html" title="Catalyst - the future of Mac apps?" />
+      <published>2020-02-05T20:27:06-05:00</published>
+      <updated>2020-02-05T20:27:06-05:00</updated>
+      <id>/mac-catalyst</id>
+      <content type="html" xml:base="/mac-catalyst">&lt;p&gt;Back in June 2019 at WWDC Apple announced Mac Catalyst, a new way to build apps that share one common codebase that can run across iPadOS, iOS and macOS. Very shortly after this announcement, they also announced the new SwiftUI, an easy way to create apps for Mac, iPad, iPhone, etc. Immediately people were joking about how Apple announced and promptly killed Catalyst in the same presentation, but I don’t think this is quite the case.&lt;/p&gt;
+
+&lt;p&gt;First, a little deeper dive into Catalyst. What this was pitched as is a way to write an iOS/iPadOS app, and with little to no effort (it’s literally as simple as checking a box!) you can magically add support for macOS. We saw some demo apps of this in iOS 12 the year before (Stocks, Voice Recorder, Home) that were less than ideal, but technically got the job done. Where these apps didn’t exist before on macOS, suddenly they did.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately there’s a lot of small details that weren’t quite so painless. Most apps won’t be as simple as just checking a box, you’ll likely need to separate out some code that differentiates between platforms for both UI appeal, but also functionality (or lack there of in some cases) that differs. Those problems aside, it is still an impressive feat to consider how much &lt;em&gt;less&lt;/em&gt; effort it takes to build an app with Catalyst compared to building two completely separate apps.&lt;/p&gt;
+
+&lt;p&gt;Heading back to SwiftUI, the thing that gets easily overlooked in this debate of SwiftUI vs Catalyst is that SwiftUI is still only one piece of the puzzle. It’s also a piece that is compatible with Catalyst, whose roots go far deeper than just the UI. SwiftUI is a great way to “declare” your UI, but it doesn’t do much else, it’s not meant to. Catalyst, however, is responsible for not only UI, but also a lot of other underlying frameworks and APIs that aren’t necessarily exposed to macOS apps the same way.&lt;/p&gt;
+
+&lt;p&gt;When writing an app for iOS, then learning macOS, it is quick to see they both share some things, and act wildly different with others. If you want, you can write separate iOS and macOS apps using SwiftUI and the respective frameworks for each platform, but ultimately you’ll be still doing twice the work. When using SwiftUI &lt;em&gt;with&lt;/em&gt; Catalyst, you can share a common codebase. It’s easy to miss the difference, but it is there.&lt;/p&gt;
+
+&lt;p&gt;Traditionally, macOS apps have been built using a framework called AppKit, while iOS apps use UIKit. They are very uniquely separate frameworks for different tasks, but this is why SwiftUI alone does not mean you get two apps from one codebase. Catalyst, in a sense, is a sort of “translator” of your code, to allow it to run on macOS. Behind the scenes, while I’m not entirely sure what Apple does to make this work, I suspect it’s an effort that is not being replaced immediately with SwiftUI.&lt;/p&gt;
+
+&lt;p&gt;I believe Catalyst is more of a long-term strategy at Apple to not only share apps across platforms, but to also bring the platforms themselves closer together. There are still so many thing macOS is lacking that iOS/iPadOS have (or at least can do better). The same could be said on the reverse. The tricky part is figuring out where to draw lines in the sand for any of this. Catalyst feels like Apple saying “we prefer the iOS way of building apps, so if you want iOS functionality, this is the way”.&lt;/p&gt;
+
+&lt;p&gt;While we don’t have 100% feature parity with Catalyst yet, it is still young. I think what we’ll see down the road is the expansion of features like Siri Shortcuts or the Shortcuts app, but only available to Catalyst apps. If you build an app with SwiftUI but via AppKit as a standalone app, you’ll not only have to maintain a separate codebase from your iOS app, but you’ll also miss out on features that Catalyst provides from iOS. This makes sense in a lot of ways, as it means users who want AppKit can still use it, but over time it will stop getting new features and eventually even get dropped altogether (probably not for a while though).&lt;/p&gt;
+
+&lt;p&gt;Speaking of Siri Shortcuts, this would be the easy way to avoid having to add support for Shortcuts to legacy apps. Only Catalyst apps get these features, AppKit gets left behind. Sure, developers can still make AppKit apps, and will make great ones I’m sure, but to get that “iOS on Mac” experience, it’ll have to be Catalyst.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;: Catalyst is way more than just UI, while SwiftUI is basically just UI (hence the name). To get a true cross-platform, one-codebase end result, Catalyst is a way safer bet than SwiftUI+AppKit/UIKit. Expect features to be exclusive to Catalyst instead of AppKit over time.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron Dippner</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="apple" />
+      
+        <category term="mac" />
+      
+        <category term="catalyst" />
+      
+        <category term="swift" />
+      
+        <category term="swiftui" />
+      
+
+      
+        <summary type="html">Back in June 2019 at WWDC Apple announced Mac Catalyst, a new way to build apps that share one common codebase that can run across iPadOS, iOS and macOS. Very shortly after this announcement, they also announced the new SwiftUI, an easy way to create apps for Mac, iPad, iPhone, etc. Immediately people were joking about how Apple announced and promptly killed Catalyst in the same presentation, but I don’t think this is quite the case.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">SwiftUI - Using Timer for UI refreshes</title>
