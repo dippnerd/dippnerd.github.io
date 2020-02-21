@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/aaron/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-02-21T08:30:11-05:00</updated>
+  <updated>2020-02-21T08:33:18-05:00</updated>
   <id>/author/aaron/feed.xml</id>
 
   
@@ -210,7 +210,7 @@
 
 &lt;p&gt;I hope this helps anyone out trying to something similar. I didn’t come to all of this on my own, credit goes to &lt;a href=&quot;https://stackoverflow.com/a/56905649/9012764&quot;&gt;this Stack Overflow answer&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/r/iOSProgramming/comments/cf219v/force_swiftui_list_contents_to_update/eu6rk28/&quot;&gt;this response&lt;/a&gt; to my problem on Reddit.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update Feb 21, 2020:&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;SwiftUI and Combine had some growing pains through the beta periods and have changed along the way. The code snippets above have been updated with current changes, like ‘willChange’ becoming ‘objectWillChange’.&lt;/em&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update 21 February 2020:&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;SwiftUI and Combine had some growing pains through the beta periods and have changed along the way. The code snippets above have been updated with current changes, like ‘willChange’ becoming ‘objectWillChange’.&lt;/em&gt;&lt;/p&gt;</content>
 
       
       
